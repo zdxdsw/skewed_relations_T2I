@@ -1,0 +1,16 @@
+hidden_dim_multipliers: []
+split_method: "split13"
+batch_size: 64
+epochs: 200
+lr: 1e-4
+save_dir: "ckpts"
+nouns_file: "../../data/nouns/all_nouns.txt"
+max_num_nouns: 60
+date: "debug"
+lm_howto_select_encoding_positions: "encode_subj_obj"
+lm: t5
+lm_kwargs:
+  token_pos: 'last'
+  #name: 'google/t5-v1_1-xxl' #'google/flan-t5-xxl'
+  name: 't5-small'
+  dtype: 'no'

@@ -1,0 +1,3674 @@
+[
+    [
+        "A mug to the right of a knife",
+        "whatsup_vlms/controlled_clevr/mug_right_of_knife.jpeg",
+        [
+            "mug",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a can",
+        "whatsup_vlms/controlled_clevr/cup_left_of_can.jpeg",
+        [
+            "cup",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a candle",
+        "whatsup_vlms/controlled_clevr/cup_right_of_candle.jpeg",
+        [
+            "cup",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/plate_right_of_spoon.jpeg",
+        [
+            "plate",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a phone",
+        "whatsup_vlms/controlled_clevr/mug_left_of_phone.jpeg",
+        [
+            "mug",
+            "phone",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a cup",
+        "whatsup_vlms/controlled_clevr/plate_left_of_cup.jpeg",
+        [
+            "plate",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a cap",
+        "whatsup_vlms/controlled_clevr/plate_right_of_cap.jpeg",
+        [
+            "plate",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/book_right_of_spoon.jpeg",
+        [
+            "book",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a tape",
+        "whatsup_vlms/controlled_clevr/sunglasses_right_of_tape.jpeg",
+        [
+            "sunglasses",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a tape",
+        "whatsup_vlms/controlled_clevr/remote_left_of_tape.jpeg",
+        [
+            "remote",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a cap",
+        "whatsup_vlms/controlled_clevr/mug_right_of_cap.jpeg",
+        [
+            "mug",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/remote_left_of_scissors.jpeg",
+        [
+            "remote",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the right of a tape",
+        "whatsup_vlms/controlled_clevr/cap_right_of_tape.jpeg",
+        [
+            "cap",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a cup",
+        "whatsup_vlms/controlled_clevr/plate_right_of_cup.jpeg",
+        [
+            "plate",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/can_left_of_sunglasses.jpeg",
+        [
+            "can",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/plate_left_of_sunglasses.jpeg",
+        [
+            "plate",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a fork",
+        "whatsup_vlms/controlled_clevr/mug_left_of_fork.jpeg",
+        [
+            "mug",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a cup",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_cup.jpeg",
+        [
+            "bowl",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a plate",
+        "whatsup_vlms/controlled_clevr/mug_left_of_plate.jpeg",
+        [
+            "mug",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a flower",
+        "whatsup_vlms/controlled_clevr/cup_right_of_flower.jpeg",
+        [
+            "cup",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cap_left_of_cup.jpeg",
+        [
+            "cap",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/cup_right_of_sunglasses.jpeg",
+        [
+            "cup",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a flower",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_flower.jpeg",
+        [
+            "bowl",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/cap_left_of_headphones.jpeg",
+        [
+            "cap",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/book_left_of_spoon.jpeg",
+        [
+            "book",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a tape",
+        "whatsup_vlms/controlled_clevr/plate_right_of_tape.jpeg",
+        [
+            "plate",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the right of a cup",
+        "whatsup_vlms/controlled_clevr/mug_right_of_cup.jpeg",
+        [
+            "mug",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a book",
+        "whatsup_vlms/controlled_clevr/mug_left_of_book.jpeg",
+        [
+            "mug",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a flower",
+        "whatsup_vlms/controlled_clevr/plate_left_of_flower.jpeg",
+        [
+            "plate",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a fork",
+        "whatsup_vlms/controlled_clevr/cap_left_of_fork.jpeg",
+        [
+            "cap",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a candle",
+        "whatsup_vlms/controlled_clevr/book_left_of_candle.jpeg",
+        [
+            "book",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/can_right_of_sunglasses.jpeg",
+        [
+            "can",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_scissors.jpeg",
+        [
+            "bowl",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a tape",
+        "whatsup_vlms/controlled_clevr/plate_left_of_tape.jpeg",
+        [
+            "plate",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a cap",
+        "whatsup_vlms/controlled_clevr/book_right_of_cap.jpeg",
+        [
+            "book",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/plate_right_of_sunglasses.jpeg",
+        [
+            "plate",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a knife",
+        "whatsup_vlms/controlled_clevr/cup_right_of_knife.jpeg",
+        [
+            "cup",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a remote",
+        "whatsup_vlms/controlled_clevr/plate_left_of_remote.jpeg",
+        [
+            "plate",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a knife",
+        "whatsup_vlms/controlled_clevr/book_left_of_knife.jpeg",
+        [
+            "book",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a knife",
+        "whatsup_vlms/controlled_clevr/mug_left_of_knife.jpeg",
+        [
+            "mug",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a flower",
+        "whatsup_vlms/controlled_clevr/mug_right_of_flower.jpeg",
+        [
+            "mug",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a fork",
+        "whatsup_vlms/controlled_clevr/remote_right_of_fork.jpeg",
+        [
+            "remote",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a tape",
+        "whatsup_vlms/controlled_clevr/sunglasses_left_of_tape.jpeg",
+        [
+            "sunglasses",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/mug_right_of_bowl.jpeg",
+        [
+            "mug",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/can_right_of_spoon.jpeg",
+        [
+            "can",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the right of a candle",
+        "whatsup_vlms/controlled_clevr/mug_right_of_candle.jpeg",
+        [
+            "mug",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a tape",
+        "whatsup_vlms/controlled_clevr/remote_right_of_tape.jpeg",
+        [
+            "remote",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a can",
+        "whatsup_vlms/controlled_clevr/mug_left_of_can.jpeg",
+        [
+            "mug",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/remote_right_of_sunglasses.jpeg",
+        [
+            "remote",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/cap_right_of_spoon.jpeg",
+        [
+            "cap",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a remote",
+        "whatsup_vlms/controlled_clevr/plate_right_of_remote.jpeg",
+        [
+            "plate",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/cup_left_of_sunglasses.jpeg",
+        [
+            "cup",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a cup",
+        "whatsup_vlms/controlled_clevr/book_right_of_cup.jpeg",
+        [
+            "book",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/can_left_of_spoon.jpeg",
+        [
+            "can",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/remote_right_of_spoon.jpeg",
+        [
+            "remote",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a can",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_can.jpeg",
+        [
+            "bowl",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a remote",
+        "whatsup_vlms/controlled_clevr/book_left_of_remote.jpeg",
+        [
+            "book",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a flower",
+        "whatsup_vlms/controlled_clevr/book_right_of_flower.jpeg",
+        [
+            "book",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/cup_left_of_headphones.jpeg",
+        [
+            "cup",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/book_left_of_headphones.jpeg",
+        [
+            "book",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/remote_left_of_sunglasses.jpeg",
+        [
+            "remote",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a can",
+        "whatsup_vlms/controlled_clevr/mug_right_of_can.jpeg",
+        [
+            "mug",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a can",
+        "whatsup_vlms/controlled_clevr/plate_right_of_can.jpeg",
+        [
+            "plate",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a can",
+        "whatsup_vlms/controlled_clevr/cup_right_of_can.jpeg",
+        [
+            "cup",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a candle",
+        "whatsup_vlms/controlled_clevr/can_left_of_candle.jpeg",
+        [
+            "can",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a can",
+        "whatsup_vlms/controlled_clevr/cap_left_of_can.jpeg",
+        [
+            "cap",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a cap",
+        "whatsup_vlms/controlled_clevr/book_left_of_cap.jpeg",
+        [
+            "book",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a tape",
+        "whatsup_vlms/controlled_clevr/mug_right_of_tape.jpeg",
+        [
+            "mug",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a knife",
+        "whatsup_vlms/controlled_clevr/plate_left_of_knife.jpeg",
+        [
+            "plate",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a remote",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_remote.jpeg",
+        [
+            "bowl",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a fork",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_fork.jpeg",
+        [
+            "bowl",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/mug_left_of_headphones.jpeg",
+        [
+            "mug",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_spoon.jpeg",
+        [
+            "bowl",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a fork",
+        "whatsup_vlms/controlled_clevr/can_right_of_fork.jpeg",
+        [
+            "can",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a candle",
+        "whatsup_vlms/controlled_clevr/remote_right_of_candle.jpeg",
+        [
+            "remote",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/remote_right_of_scissors.jpeg",
+        [
+            "remote",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/plate_left_of_scissors.jpeg",
+        [
+            "plate",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a can",
+        "whatsup_vlms/controlled_clevr/book_right_of_can.jpeg",
+        [
+            "book",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/cup_right_of_scissors.jpeg",
+        [
+            "cup",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a tape",
+        "whatsup_vlms/controlled_clevr/mug_left_of_tape.jpeg",
+        [
+            "mug",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a phone",
+        "whatsup_vlms/controlled_clevr/plate_right_of_phone.jpeg",
+        [
+            "plate",
+            "phone",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a candle",
+        "whatsup_vlms/controlled_clevr/can_right_of_candle.jpeg",
+        [
+            "can",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a knife",
+        "whatsup_vlms/controlled_clevr/can_right_of_knife.jpeg",
+        [
+            "can",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/book_left_of_sunglasses.jpeg",
+        [
+            "book",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a phone",
+        "whatsup_vlms/controlled_clevr/plate_left_of_phone.jpeg",
+        [
+            "plate",
+            "phone",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a fork",
+        "whatsup_vlms/controlled_clevr/cup_right_of_fork.jpeg",
+        [
+            "cup",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/remote_left_of_headphones.jpeg",
+        [
+            "remote",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a fork",
+        "whatsup_vlms/controlled_clevr/book_left_of_fork.jpeg",
+        [
+            "book",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a candle",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_candle.jpeg",
+        [
+            "bowl",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the right of a remote",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_remote.jpeg",
+        [
+            "bowl",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/can_left_of_scissors.jpeg",
+        [
+            "can",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a tape",
+        "whatsup_vlms/controlled_clevr/cup_left_of_tape.jpeg",
+        [
+            "cup",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/cap_right_of_scissors.jpeg",
+        [
+            "cap",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a knife",
+        "whatsup_vlms/controlled_clevr/plate_right_of_knife.jpeg",
+        [
+            "plate",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/book_right_of_scissors.jpeg",
+        [
+            "book",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/mug_left_of_sunglasses.jpeg",
+        [
+            "mug",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a fork",
+        "whatsup_vlms/controlled_clevr/plate_left_of_fork.jpeg",
+        [
+            "plate",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a candle",
+        "whatsup_vlms/controlled_clevr/cap_left_of_candle.jpeg",
+        [
+            "cap",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_headphones.jpeg",
+        [
+            "bowl",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a book",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_book.jpeg",
+        [
+            "bowl",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/remote_right_of_headphones.jpeg",
+        [
+            "remote",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/book_left_of_scissors.jpeg",
+        [
+            "book",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/mug_left_of_spoon.jpeg",
+        [
+            "mug",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a can",
+        "whatsup_vlms/controlled_clevr/book_left_of_can.jpeg",
+        [
+            "book",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a remote",
+        "whatsup_vlms/controlled_clevr/cup_right_of_remote.jpeg",
+        [
+            "cup",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/can_right_of_headphones.jpeg",
+        [
+            "can",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a tape",
+        "whatsup_vlms/controlled_clevr/cup_right_of_tape.jpeg",
+        [
+            "cup",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/mug_left_of_bowl.jpeg",
+        [
+            "mug",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a book",
+        "whatsup_vlms/controlled_clevr/plate_right_of_book.jpeg",
+        [
+            "plate",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a knife",
+        "whatsup_vlms/controlled_clevr/book_right_of_knife.jpeg",
+        [
+            "book",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the right of a book",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_book.jpeg",
+        [
+            "bowl",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a can",
+        "whatsup_vlms/controlled_clevr/plate_left_of_can.jpeg",
+        [
+            "plate",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a plate",
+        "whatsup_vlms/controlled_clevr/mug_right_of_plate.jpeg",
+        [
+            "mug",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a remote",
+        "whatsup_vlms/controlled_clevr/mug_left_of_remote.jpeg",
+        [
+            "mug",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a flower",
+        "whatsup_vlms/controlled_clevr/cup_left_of_flower.jpeg",
+        [
+            "cup",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/plate_left_of_spoon.jpeg",
+        [
+            "plate",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a can",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_can.jpeg",
+        [
+            "bowl",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a remote",
+        "whatsup_vlms/controlled_clevr/book_right_of_remote.jpeg",
+        [
+            "book",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a fork",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_fork.jpeg",
+        [
+            "bowl",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/book_right_of_sunglasses.jpeg",
+        [
+            "book",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a tape",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_tape.jpeg",
+        [
+            "bowl",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the left of a fork",
+        "whatsup_vlms/controlled_clevr/can_left_of_fork.jpeg",
+        [
+            "can",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/mug_left_of_scissors.jpeg",
+        [
+            "mug",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a candle",
+        "whatsup_vlms/controlled_clevr/plate_right_of_candle.jpeg",
+        [
+            "plate",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_sunglasses.jpeg",
+        [
+            "bowl",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a candle",
+        "whatsup_vlms/controlled_clevr/book_right_of_candle.jpeg",
+        [
+            "book",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a cap",
+        "whatsup_vlms/controlled_clevr/mug_left_of_cap.jpeg",
+        [
+            "mug",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/cup_right_of_headphones.jpeg",
+        [
+            "cup",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a fork",
+        "whatsup_vlms/controlled_clevr/cup_left_of_fork.jpeg",
+        [
+            "cup",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a cap",
+        "whatsup_vlms/controlled_clevr/plate_left_of_cap.jpeg",
+        [
+            "plate",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_spoon.jpeg",
+        [
+            "bowl",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cap_right_of_cup.jpeg",
+        [
+            "cap",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a flower",
+        "whatsup_vlms/controlled_clevr/cap_right_of_flower.jpeg",
+        [
+            "cap",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a fork",
+        "whatsup_vlms/controlled_clevr/book_right_of_fork.jpeg",
+        [
+            "book",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a flower",
+        "whatsup_vlms/controlled_clevr/cap_left_of_flower.jpeg",
+        [
+            "cap",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the right of a can",
+        "whatsup_vlms/controlled_clevr/cap_right_of_can.jpeg",
+        [
+            "cap",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/cap_left_of_sunglasses.jpeg",
+        [
+            "cap",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/cap_left_of_spoon.jpeg",
+        [
+            "cap",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a flower",
+        "whatsup_vlms/controlled_clevr/remote_left_of_flower.jpeg",
+        [
+            "remote",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a cup",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_cup.jpeg",
+        [
+            "bowl",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a tape",
+        "whatsup_vlms/controlled_clevr/can_right_of_tape.jpeg",
+        [
+            "can",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/cap_right_of_headphones.jpeg",
+        [
+            "cap",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a candle",
+        "whatsup_vlms/controlled_clevr/plate_left_of_candle.jpeg",
+        [
+            "plate",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the right of a remote",
+        "whatsup_vlms/controlled_clevr/cap_right_of_remote.jpeg",
+        [
+            "cap",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/remote_left_of_spoon.jpeg",
+        [
+            "remote",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a knife",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_knife.jpeg",
+        [
+            "bowl",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/mug_right_of_spoon.jpeg",
+        [
+            "mug",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_headphones.jpeg",
+        [
+            "bowl",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a cup",
+        "whatsup_vlms/controlled_clevr/book_left_of_cup.jpeg",
+        [
+            "book",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_sunglasses.jpeg",
+        [
+            "bowl",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a cap",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_cap.jpeg",
+        [
+            "bowl",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the right of a tape",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_tape.jpeg",
+        [
+            "bowl",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a remote",
+        "whatsup_vlms/controlled_clevr/can_left_of_remote.jpeg",
+        [
+            "can",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a flower",
+        "whatsup_vlms/controlled_clevr/book_left_of_flower.jpeg",
+        [
+            "book",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/cap_left_of_scissors.jpeg",
+        [
+            "cap",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a spoon",
+        "whatsup_vlms/controlled_clevr/cup_right_of_spoon.jpeg",
+        [
+            "cup",
+            "spoon",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/cap_right_of_sunglasses.jpeg",
+        [
+            "cap",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/can_right_of_scissors.jpeg",
+        [
+            "can",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a spoon",
+        "whatsup_vlms/controlled_clevr/cup_left_of_spoon.jpeg",
+        [
+            "cup",
+            "spoon",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the left of a knife",
+        "whatsup_vlms/controlled_clevr/can_left_of_knife.jpeg",
+        [
+            "can",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the left of a flower",
+        "whatsup_vlms/controlled_clevr/mug_left_of_flower.jpeg",
+        [
+            "mug",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a knife",
+        "whatsup_vlms/controlled_clevr/cap_left_of_knife.jpeg",
+        [
+            "cap",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a book",
+        "whatsup_vlms/controlled_clevr/plate_left_of_book.jpeg",
+        [
+            "plate",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a flower",
+        "whatsup_vlms/controlled_clevr/can_right_of_flower.jpeg",
+        [
+            "can",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a candle",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_candle.jpeg",
+        [
+            "bowl",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/plate_left_of_headphones.jpeg",
+        [
+            "plate",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/book_right_of_headphones.jpeg",
+        [
+            "book",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the right of a book",
+        "whatsup_vlms/controlled_clevr/mug_right_of_book.jpeg",
+        [
+            "mug",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a tape",
+        "whatsup_vlms/controlled_clevr/can_left_of_tape.jpeg",
+        [
+            "can",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a scissors",
+        "whatsup_vlms/controlled_clevr/cup_left_of_scissors.jpeg",
+        [
+            "cup",
+            "scissors",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a candle",
+        "whatsup_vlms/controlled_clevr/cup_left_of_candle.jpeg",
+        [
+            "cup",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the left of a tape",
+        "whatsup_vlms/controlled_clevr/cap_left_of_tape.jpeg",
+        [
+            "cap",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a cap",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_cap.jpeg",
+        [
+            "bowl",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a fork",
+        "whatsup_vlms/controlled_clevr/mug_right_of_fork.jpeg",
+        [
+            "mug",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a tape",
+        "whatsup_vlms/controlled_clevr/book_right_of_tape.jpeg",
+        [
+            "book",
+            "tape",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a candle",
+        "whatsup_vlms/controlled_clevr/remote_left_of_candle.jpeg",
+        [
+            "remote",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_scissors.jpeg",
+        [
+            "bowl",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/mug_right_of_headphones.jpeg",
+        [
+            "mug",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a remote",
+        "whatsup_vlms/controlled_clevr/cup_left_of_remote.jpeg",
+        [
+            "cup",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a headphones",
+        "whatsup_vlms/controlled_clevr/plate_right_of_headphones.jpeg",
+        [
+            "plate",
+            "headphones",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/plate_right_of_bowl.jpeg",
+        [
+            "plate",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the right of a flower",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_flower.jpeg",
+        [
+            "bowl",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a cup",
+        "whatsup_vlms/controlled_clevr/mug_left_of_cup.jpeg",
+        [
+            "mug",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a flower",
+        "whatsup_vlms/controlled_clevr/remote_right_of_flower.jpeg",
+        [
+            "remote",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a flower",
+        "whatsup_vlms/controlled_clevr/plate_right_of_flower.jpeg",
+        [
+            "plate",
+            "flower",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a remote",
+        "whatsup_vlms/controlled_clevr/cap_left_of_remote.jpeg",
+        [
+            "cap",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/mug_right_of_sunglasses.jpeg",
+        [
+            "mug",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a flower",
+        "whatsup_vlms/controlled_clevr/can_left_of_flower.jpeg",
+        [
+            "can",
+            "flower",
+            "left of"
+        ]
+    ],
+    [
+        "A plate to the right of a fork",
+        "whatsup_vlms/controlled_clevr/plate_right_of_fork.jpeg",
+        [
+            "plate",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a knife",
+        "whatsup_vlms/controlled_clevr/cap_right_of_knife.jpeg",
+        [
+            "cap",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a candle",
+        "whatsup_vlms/controlled_clevr/cap_right_of_candle.jpeg",
+        [
+            "cap",
+            "candle",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a fork",
+        "whatsup_vlms/controlled_clevr/cap_right_of_fork.jpeg",
+        [
+            "cap",
+            "fork",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the left of a candle",
+        "whatsup_vlms/controlled_clevr/mug_left_of_candle.jpeg",
+        [
+            "mug",
+            "candle",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a knife",
+        "whatsup_vlms/controlled_clevr/cup_left_of_knife.jpeg",
+        [
+            "cup",
+            "knife",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/mug_right_of_scissors.jpeg",
+        [
+            "mug",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the left of a tape",
+        "whatsup_vlms/controlled_clevr/book_left_of_tape.jpeg",
+        [
+            "book",
+            "tape",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the left of a headphones",
+        "whatsup_vlms/controlled_clevr/can_left_of_headphones.jpeg",
+        [
+            "can",
+            "headphones",
+            "left of"
+        ]
+    ],
+    [
+        "A mug to the right of a phone",
+        "whatsup_vlms/controlled_clevr/mug_right_of_phone.jpeg",
+        [
+            "mug",
+            "phone",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a fork",
+        "whatsup_vlms/controlled_clevr/remote_left_of_fork.jpeg",
+        [
+            "remote",
+            "fork",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a remote",
+        "whatsup_vlms/controlled_clevr/can_right_of_remote.jpeg",
+        [
+            "can",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/plate_left_of_bowl.jpeg",
+        [
+            "plate",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a knife",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_knife.jpeg",
+        [
+            "bowl",
+            "knife",
+            "right of"
+        ]
+    ],
+    [
+        "A mug to the right of a remote",
+        "whatsup_vlms/controlled_clevr/mug_right_of_remote.jpeg",
+        [
+            "mug",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a scissors",
+        "whatsup_vlms/controlled_clevr/plate_right_of_scissors.jpeg",
+        [
+            "plate",
+            "scissors",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_knife.jpeg",
+        [
+            "knife",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_can.jpeg",
+        [
+            "can",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_candle.jpeg",
+        [
+            "candle",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A phone to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_phone.jpeg",
+        [
+            "phone",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_cup.jpeg",
+        [
+            "cup",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_cap.jpeg",
+        [
+            "cap",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a sunglasses",
+        "whatsup_vlms/controlled_clevr/sunglasses_right_of_tape.jpeg",
+        [
+            "tape",
+            "sunglasses",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_tape.jpeg",
+        [
+            "tape",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_cap.jpeg",
+        [
+            "cap",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_tape.jpeg",
+        [
+            "tape",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_cup.jpeg",
+        [
+            "cup",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_fork.jpeg",
+        [
+            "fork",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_cup.jpeg",
+        [
+            "cup",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_plate.jpeg",
+        [
+            "plate",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_flower.jpeg",
+        [
+            "flower",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_cup.jpeg",
+        [
+            "cup",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_flower.jpeg",
+        [
+            "flower",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_tape.jpeg",
+        [
+            "tape",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_cup.jpeg",
+        [
+            "cup",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_book.jpeg",
+        [
+            "book",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_flower.jpeg",
+        [
+            "flower",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_fork.jpeg",
+        [
+            "fork",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_candle.jpeg",
+        [
+            "candle",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_tape.jpeg",
+        [
+            "tape",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_cap.jpeg",
+        [
+            "cap",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_knife.jpeg",
+        [
+            "knife",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_remote.jpeg",
+        [
+            "remote",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_knife.jpeg",
+        [
+            "knife",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_knife.jpeg",
+        [
+            "knife",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_flower.jpeg",
+        [
+            "flower",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_fork.jpeg",
+        [
+            "fork",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a sunglasses",
+        "whatsup_vlms/controlled_clevr/sunglasses_left_of_tape.jpeg",
+        [
+            "tape",
+            "sunglasses",
+            "right of"
+        ]
+    ],
+    [
+        "A bowl to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_bowl.jpeg",
+        [
+            "bowl",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_candle.jpeg",
+        [
+            "candle",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_tape.jpeg",
+        [
+            "tape",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_can.jpeg",
+        [
+            "can",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_remote.jpeg",
+        [
+            "remote",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_cup.jpeg",
+        [
+            "cup",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_can.jpeg",
+        [
+            "can",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_remote.jpeg",
+        [
+            "remote",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_flower.jpeg",
+        [
+            "flower",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_can.jpeg",
+        [
+            "can",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_can.jpeg",
+        [
+            "can",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_can.jpeg",
+        [
+            "can",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_candle.jpeg",
+        [
+            "candle",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_can.jpeg",
+        [
+            "can",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_cap.jpeg",
+        [
+            "cap",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_tape.jpeg",
+        [
+            "tape",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_knife.jpeg",
+        [
+            "knife",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_remote.jpeg",
+        [
+            "remote",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_fork.jpeg",
+        [
+            "fork",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_fork.jpeg",
+        [
+            "fork",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_candle.jpeg",
+        [
+            "candle",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_can.jpeg",
+        [
+            "can",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_tape.jpeg",
+        [
+            "tape",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A phone to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_phone.jpeg",
+        [
+            "phone",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_candle.jpeg",
+        [
+            "candle",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_knife.jpeg",
+        [
+            "knife",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A phone to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_phone.jpeg",
+        [
+            "phone",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_fork.jpeg",
+        [
+            "fork",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_fork.jpeg",
+        [
+            "fork",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_candle.jpeg",
+        [
+            "candle",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_remote.jpeg",
+        [
+            "remote",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_tape.jpeg",
+        [
+            "tape",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_knife.jpeg",
+        [
+            "knife",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_fork.jpeg",
+        [
+            "fork",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_candle.jpeg",
+        [
+            "candle",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_book.jpeg",
+        [
+            "book",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_can.jpeg",
+        [
+            "can",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_remote.jpeg",
+        [
+            "remote",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_tape.jpeg",
+        [
+            "tape",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_bowl.jpeg",
+        [
+            "bowl",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_book.jpeg",
+        [
+            "book",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_knife.jpeg",
+        [
+            "knife",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_book.jpeg",
+        [
+            "book",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A can to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_can.jpeg",
+        [
+            "can",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A plate to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_plate.jpeg",
+        [
+            "plate",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_remote.jpeg",
+        [
+            "remote",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_flower.jpeg",
+        [
+            "flower",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_can.jpeg",
+        [
+            "can",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_remote.jpeg",
+        [
+            "remote",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_fork.jpeg",
+        [
+            "fork",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_tape.jpeg",
+        [
+            "tape",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_fork.jpeg",
+        [
+            "fork",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_candle.jpeg",
+        [
+            "candle",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_candle.jpeg",
+        [
+            "candle",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A cap to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_cap.jpeg",
+        [
+            "cap",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_fork.jpeg",
+        [
+            "fork",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_cap.jpeg",
+        [
+            "cap",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_cup.jpeg",
+        [
+            "cup",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_flower.jpeg",
+        [
+            "flower",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_fork.jpeg",
+        [
+            "fork",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_flower.jpeg",
+        [
+            "flower",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A can to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_can.jpeg",
+        [
+            "can",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_flower.jpeg",
+        [
+            "flower",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_cup.jpeg",
+        [
+            "cup",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_tape.jpeg",
+        [
+            "tape",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_candle.jpeg",
+        [
+            "candle",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_remote.jpeg",
+        [
+            "remote",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_knife.jpeg",
+        [
+            "knife",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A cup to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_cup.jpeg",
+        [
+            "cup",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_cap.jpeg",
+        [
+            "cap",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_tape.jpeg",
+        [
+            "tape",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_remote.jpeg",
+        [
+            "remote",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_flower.jpeg",
+        [
+            "flower",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A spoon to the left of a cup",
+        "whatsup_vlms/controlled_clevr/cup_right_of_spoon.jpeg",
+        [
+            "spoon",
+            "cup",
+            "left of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A spoon to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_spoon.jpeg",
+        [
+            "spoon",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_knife.jpeg",
+        [
+            "knife",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_flower.jpeg",
+        [
+            "flower",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_knife.jpeg",
+        [
+            "knife",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A book to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_book.jpeg",
+        [
+            "book",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_flower.jpeg",
+        [
+            "flower",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_candle.jpeg",
+        [
+            "candle",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A book to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_book.jpeg",
+        [
+            "book",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_tape.jpeg",
+        [
+            "tape",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_scissors.jpeg",
+        [
+            "scissors",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A candle to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_candle.jpeg",
+        [
+            "candle",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A tape to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_tape.jpeg",
+        [
+            "tape",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A cap to the right of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_left_of_cap.jpeg",
+        [
+            "cap",
+            "bowl",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_fork.jpeg",
+        [
+            "fork",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the left of a book",
+        "whatsup_vlms/controlled_clevr/book_right_of_tape.jpeg",
+        [
+            "tape",
+            "book",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_candle.jpeg",
+        [
+            "candle",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A headphones to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_remote.jpeg",
+        [
+            "remote",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_headphones.jpeg",
+        [
+            "headphones",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_bowl.jpeg",
+        [
+            "bowl",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_flower.jpeg",
+        [
+            "flower",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A cup to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_cup.jpeg",
+        [
+            "cup",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A flower to the left of a remote",
+        "whatsup_vlms/controlled_clevr/remote_right_of_flower.jpeg",
+        [
+            "flower",
+            "remote",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_flower.jpeg",
+        [
+            "flower",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the right of a cap",
+        "whatsup_vlms/controlled_clevr/cap_left_of_remote.jpeg",
+        [
+            "remote",
+            "cap",
+            "right of"
+        ]
+    ],
+    [
+        "A sunglasses to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_sunglasses.jpeg",
+        [
+            "sunglasses",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A flower to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_flower.jpeg",
+        [
+            "flower",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A fork to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_fork.jpeg",
+        [
+            "fork",
+            "plate",
+            "left of"
+        ]
+    ],
+    [
+        "A knife to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_knife.jpeg",
+        [
+            "knife",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_candle.jpeg",
+        [
+            "candle",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the left of a cap",
+        "whatsup_vlms/controlled_clevr/cap_right_of_fork.jpeg",
+        [
+            "fork",
+            "cap",
+            "left of"
+        ]
+    ],
+    [
+        "A candle to the right of a mug",
+        "whatsup_vlms/controlled_clevr/mug_left_of_candle.jpeg",
+        [
+            "candle",
+            "mug",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the right of a cup",
+        "whatsup_vlms/controlled_clevr/cup_left_of_knife.jpeg",
+        [
+            "knife",
+            "cup",
+            "right of"
+        ]
+    ],
+    [
+        "A scissors to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A tape to the right of a book",
+        "whatsup_vlms/controlled_clevr/book_left_of_tape.jpeg",
+        [
+            "tape",
+            "book",
+            "right of"
+        ]
+    ],
+    [
+        "A headphones to the right of a can",
+        "whatsup_vlms/controlled_clevr/can_left_of_headphones.jpeg",
+        [
+            "headphones",
+            "can",
+            "right of"
+        ]
+    ],
+    [
+        "A phone to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_phone.jpeg",
+        [
+            "phone",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A fork to the right of a remote",
+        "whatsup_vlms/controlled_clevr/remote_left_of_fork.jpeg",
+        [
+            "fork",
+            "remote",
+            "right of"
+        ]
+    ],
+    [
+        "A remote to the left of a can",
+        "whatsup_vlms/controlled_clevr/can_right_of_remote.jpeg",
+        [
+            "remote",
+            "can",
+            "left of"
+        ]
+    ],
+    [
+        "A bowl to the right of a plate",
+        "whatsup_vlms/controlled_clevr/plate_left_of_bowl.jpeg",
+        [
+            "bowl",
+            "plate",
+            "right of"
+        ]
+    ],
+    [
+        "A knife to the left of a bowl",
+        "whatsup_vlms/controlled_clevr/bowl_right_of_knife.jpeg",
+        [
+            "knife",
+            "bowl",
+            "left of"
+        ]
+    ],
+    [
+        "A remote to the left of a mug",
+        "whatsup_vlms/controlled_clevr/mug_right_of_remote.jpeg",
+        [
+            "remote",
+            "mug",
+            "left of"
+        ]
+    ],
+    [
+        "A scissors to the left of a plate",
+        "whatsup_vlms/controlled_clevr/plate_right_of_scissors.jpeg",
+        [
+            "scissors",
+            "plate",
+            "left of"
+        ]
+    ]
+]
