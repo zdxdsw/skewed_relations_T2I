@@ -7,19 +7,16 @@ from accelerate import Accelerator, DistributedDataParallelKwargs
 from tqdm.auto import tqdm
 import torch.nn.functional as F
 from diffusers.optimization import get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup
-from model import T2IDiffusion
+from model import T2IDiffusion, T2ILatentDiffusion
 from training_utils import numpy_to_pil, cycle
 
 from datetime import datetime
-timezone = pytz.timezone('America/New_York') 
+timezone = pytz.timezone('America/Los_Angeles') 
 date = datetime.now(timezone).strftime("%m%d_%H%M%S")
 
 config = ConditionalTrainingConfig()
 config.date = date
 
-""" Prepare Model """
-model = T2IDiffusion(config)
-config.encoder_hid_dim = model.encoder_hid_dim
 
 ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
 accelerator = Accelerator(
@@ -37,6 +34,18 @@ if accelerator.is_main_process:
     C = {k:config.__getattribute__(k) for k in dir(config) if not k.startswith("__")}
     with open(os.path.join(config.output_dir, config.date, "config.json"), "w") as f:
         json.dump(C, f, indent=2)
+
+
+""" Prepare Model """
+if "vae_weights_dir" not in dir(config) or config.vae_weights_dir is None:
+    model = T2IDiffusion(config) 
+    accelerator.print("------------------------ create T2IDiffusion model ------------------------")
+else:
+    model = T2ILatentDiffusion(config)
+    model.vae.requires_grad_(False)
+    accelerator.print("------------------------ create T2ILatentDiffusion model ------------------------")
+
+config.encoder_hid_dim = model.encoder_hid_dim
 
 if "trainable_parameters" in dir(config) and len(config.trainable_parameters):
     for n, p in model.named_parameters():

@@ -25,13 +25,13 @@ class ConditionalTrainingConfig:
     cross_attention_dim = 128
     only_cross_attention = False
     dual_cross_attention = False
-    image_size = (256, 256)  # the generated image resolution
-    draw_icon_font_size = 220
+    image_size = (128, 128)  # the generated image resolution
+    draw_icon_font_size = 120 # 120 for icon_size=128; 220 for icon_size=256
     patch_size = 2
     mixed_precision = "fp16"  # `no` for float32, `fp16` for automatic mixed precision
-    output_dir = "output"
+    output_dir = "output_rbt"
     ckpt_dir = "/data/yingshac/clevr_control/scripts/diffuser_icons/output" #"output"
-    save_image_steps = 1000
+    save_image_steps = 500
     save_model_epochs = 1000
     t5_name = "t5-small" #"google/t5-v1_1-xxl" #"google/t5-efficient-xxl" #
     noise_schedule = "squaredcos_cap_v2"
@@ -48,7 +48,7 @@ class ConditionalTrainingConfig:
     #load_from_dir = "0312_194052" 
     #init_from_ckpt = "1213_154255/ckpts/4999_30000_unet.pt" #1201_214632 1217_160404 
     vae_weights_dir = "/data/yingshac/clevr_control/from_pretrained/vae/sd2"
-    vae_scale_factor = 8
+    vae_downsample_factor = 8
     latent_channels = 4
     
 

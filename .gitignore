@@ -8,6 +8,8 @@ scripts/probing/ckpts/
 scripts/diffuser_colored_sq/output/
 scripts/diffuser_icons/output/
 scripts/diffuser_real/output/
+scripts/diffuser_icons/output_rbt/
+scripts/diffuser_real/output_rbt/
 
 events.out*
 .nfs*

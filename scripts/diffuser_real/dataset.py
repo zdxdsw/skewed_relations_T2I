@@ -456,6 +456,7 @@ class whatsup_singleobj_dataset(Dataset):
                  imdir: str,
                  annotations: List,
                  imsize = (32, 32),
+                 **kwargs
                  ):
         super().__init__()
         self.imdir = imdir

@@ -3,11 +3,11 @@ from dataclasses import dataclass
 @dataclass
 class ConditionalTrainingConfig:
     experiment="real_conditional"
-    annotations="../../data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json" #whatsup_vlm_b_lr_autofill.json" #  "vgr_nocaps_fb_both_complete.json"
+    annotations="../../data/aggregated/whatsup_vlm_b_lr.json" #whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json" #whatsup_vlm_b_lr_autofill.json" #  "vgr_nocaps_fb_both_complete.json"
     imdir="/data/yingshac/clevr_control/data/" 
-    dataset_class="real_dataset" #"whatsup_singleobj_dataset" #
-    subsample_method="splitI"
-    lm="clip_"
+    dataset_class="whatsup_singleobj_dataset" #"real_dataset" #
+    #subsample_method="splitI"
+    lm="t5"
     layers_per_block = 2
     block_out_channels = (512, 512, 1024) #(512, 512, 1024, 1536)
     down_block_types = (
@@ -29,26 +29,29 @@ class ConditionalTrainingConfig:
     cross_attention_dim = 128
     only_cross_attention = False
     dual_cross_attention = False
-    image_size = (32,64)  # the generated image resolution
+    image_size = (128, 128) #(32,64)  # the generated image resolution
     patch_size = 2
     mixed_precision = "fp16"  # `no` for float32, `fp16` for automatic mixed precision
-    output_dir = "output"
+    output_dir = "output_rbt"
     ckpt_dir = "/data/yingshac/clevr_control/scripts/diffuser_real/output" #"output"
-    save_image_steps = 3000
-    save_model_epochs = 200
+    save_image_steps = 500 #3000
+    save_model_epochs = 5000 #200
     t5_name = "t5-small" #"google/t5-v1_1-xxl" #"google/t5-efficient-xxl" #
     noise_schedule = "squaredcos_cap_v2"
-    learning_rate = 5e-4
+    learning_rate = 1e-4 #5e-4
     lr_warmup_steps = 1000
     gradient_accumulation_steps = 1
     train_batch_size = 4
-    eval_batch_size = 20  # how many images to sample during evaluation
+    eval_batch_size = 18 #20  # how many images to sample during evaluation
     num_train_timesteps = 100
-    num_epochs = 6000
+    num_epochs = 50000
     conv_in_kernel = 3
     conv_out_kernel = 3
-    trainable_parameters = ["attentions", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] # ["transformer_blocks.0.norm1", "attn1", "transformer_blocks.0.norm2", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] #
+    #trainable_parameters = ["attentions", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] # ["transformer_blocks.0.norm1", "attn1", "transformer_blocks.0.norm2", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] #
     #load_from_dir = "0305_194724" 
-    init_from_ckpt = "0304_002415/ckpts/49999_100000_unet.pt" # 1217_160404 
+    #init_from_ckpt = "0304_002415/ckpts/49999_100000_unet.pt" # 1217_160404 
+    vae_weights_dir = "/data/yingshac/clevr_control/from_pretrained/vae/sd2"
+    vae_downsample_factor = 8
+    latent_channels = 4
 
 

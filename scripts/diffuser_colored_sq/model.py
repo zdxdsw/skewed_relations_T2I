@@ -248,7 +248,7 @@ class T2ILatentDiffusion(nn.Module):
 
         self.vae = AutoencoderKL.from_pretrained(config.vae_weights_dir)
         self.vae.requires_grad_(False)
-        self.vae_scale_factor = config.vae_scale_factor
+        self.vae_downsample_factor = config.vae_downsample_factor
 
         if config.encoder_hid_dim_type is None:
             self.encoder_hid_dim = None
@@ -308,7 +308,8 @@ class T2ILatentDiffusion(nn.Module):
         device = self.unet.device
         prompt_embeds = self.encode_text(texts, device=device)
 
-        with torch.no_grad(): clean_images = self.vae.encode(clean_images).latent_dist.sample()
+        with torch.no_grad(): 
+            clean_images = self.vae.encode(clean_images).latent_dist.sample() * self.vae.config.scaling_factor
 
         noise = torch.randn(clean_images.shape).to(device)
         bs = clean_images.shape[0]
@@ -349,13 +350,13 @@ class T2ILatentDiffusion(nn.Module):
         if isinstance(self.unet.config.sample_size, int): 
             latent_shape = (len(texts), 
                             self.unet.config.in_channels, 
-                            self.unet.config.sample_size//self.vae_scale_factor, 
-                            self.unet.config.sample_size//self.vae_scale_factor)
+                            self.unet.config.sample_size//self.vae_downsample_factor, 
+                            self.unet.config.sample_size//self.vae_downsample_factor)
         else:
             latent_shape = (len(texts), 
                             self.unet.config.in_channels, 
-                            self.unet.config.sample_size[0]//self.vae_scale_factor, 
-                            self.unet.config.sample_size[1]//self.vae_scale_factor)
+                            self.unet.config.sample_size[0]//self.vae_downsample_factor, 
+                            self.unet.config.sample_size[1]//self.vae_downsample_factor)
         image = randn_tensor(latent_shape, device=device)
 
         with torch.no_grad():
@@ -363,9 +364,11 @@ class T2ILatentDiffusion(nn.Module):
                 model_output = self.unet(image, encoder_hidden_states=prompt_embeds, timestep=t).sample
                 image = self.noise_scheduler.step(model_output, t, image).prev_sample
             
-            image = self.vae.decode(image).sample.clamp(0, 1)
+            image = 1 / self.vae.config.scaling_factor * image
+            image = self.vae.decode(image).sample #.clamp(0, 1)
         
-        #image = (image / 2 + 0.5).clamp(0, 1) # (image / 2 + 0.5).
+        image = (image / 2 + 0.5).clamp(0, 1) 
+        #print("image.shape = ", image.shape)
         image = image.cpu().permute(0, 2, 3, 1).numpy() # (bs, h, w, c)
         num_placeholder = math.ceil(len(texts)/16) * 16 - len(texts)
         if num_placeholder:
