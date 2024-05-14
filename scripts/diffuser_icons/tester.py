@@ -1,12 +1,12 @@
-import sys, os
+import sys, os, warnings
 sys.path.append("../diffuser_colored_sq/")
 from training_utils import *
-from config import ConditionalTrainingConfig
+from config import ConditionalTrainingConfig, default_ConditionalTrainingConfig
 import torch, random, pytz, json, argparse
 from dataset import *
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm, trange
-from model import T2IDiffusion
+from model import T2IDiffusion, T2ILatentDiffusion
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import numpy as np
@@ -35,9 +35,21 @@ args = parser.parse_args()
 
 ckpt = args.load_from_dir
 config = ConditionalTrainingConfig()
+default_config = default_ConditionalTrainingConfig()
+
 ckpt_config = json.load(open(os.path.join(config.output_dir, ckpt, "config.json"), "r"))
-for k, v in ckpt_config.items():
-    setattr(config, k, v)
+#for k, v in ckpt_config.items():
+    #setattr(config, k, v)
+
+config_keys = dir(config)
+for k in config_keys:
+    if k.startswith("__"): continue
+    if k in ckpt_config: setattr(config, k, ckpt_config[k])
+    else:
+        setattr(config, k, default_config.__getattribute__(k))
+        warnings.warn(f"Cannot find {k} in the resume_from_config. Set to {default_config.__getattribute__(k)} by default.")
+
+
 if args.eval_batch_size is not None: config.eval_batch_size = args.eval_batch_size
 if args.split_method is not None: 
     config.split_method = args.split_method
@@ -95,7 +107,15 @@ test_dataloader = DataLoader(test_data, shuffle=False, batch_size=config.eval_ba
 accelerator.print("Prepare Data: finish\n")
 
 
-model = T2IDiffusion(config)
+""" Prepare Model """
+if "vae_weights_dir" not in dir(config) or config.vae_weights_dir is None:
+    model = T2IDiffusion(config) 
+    accelerator.print("------------------------ create T2IDiffusion model ------------------------")
+else:
+    model = T2ILatentDiffusion(config)
+    model.vae.requires_grad_(False)
+    accelerator.print("------------------------ create T2ILatentDiffusion model ------------------------")
+
 model, train_dataloader, test_dataloader = accelerator.prepare(model, train_dataloader, test_dataloader)
 
 args.load_from_epochs = [int(x) for x in args.load_from_epochs.split()]
