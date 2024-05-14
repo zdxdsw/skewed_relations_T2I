@@ -1,5 +1,6 @@
 numpy
 torch
+accelerate
 ipykernel
 sentencepiece
 transformers
