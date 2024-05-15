@@ -1,10 +1,10 @@
 from config import ConditionalTrainingConfig
-import torch, sys, os, random, pytz, json
+import torch, sys, os, random, pytz, json, argparse, time
 sys.path.append("../diffuser_colored_sq/")
 from dataset import *
 from torch.utils.data import DataLoader
 from accelerate import Accelerator, DistributedDataParallelKwargs
-from tqdm.auto import tqdm
+from tqdm.auto import tqdm, trange
 import torch.nn.functional as F
 from diffusers.optimization import get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup
 from model import T2IDiffusion, T2ILatentDiffusion
@@ -33,6 +33,17 @@ if accelerator.is_main_process:
     C = {k:config.__getattribute__(k) for k in dir(config) if not k.startswith("__")}
     with open(os.path.join(config.output_dir, config.date, "config.json"), "w") as f:
         json.dump(C, f, indent=2)
+
+
+"""------------- Sleep if needed -------------"""
+parser = argparse.ArgumentParser()
+parser.add_argument('--sleep', type=int)
+args = parser.parse_args()
+
+if args.sleep is not None:
+    for i in trange(args.sleep, desc="Sleeping"):
+        time.sleep(60)
+
 
 """ Prepare Model """
 if "vae_weights_dir" not in dir(config) or config.vae_weights_dir is None:

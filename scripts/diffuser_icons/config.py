@@ -6,7 +6,7 @@ class ConditionalTrainingConfig:
     date="debug"
     nouns_file="../../data/nouns/all_nouns.txt"
     icons_file="../../data/matplotlib/unicode.jsonl"
-    split_method="split24" #"custom_split(nouns, icons, '../../data/vl_models_are_bows/custom_splits_bijective/fb_train_triplets.txt')" # 
+    split_method="split7" #"custom_split(nouns, icons, '../../data/vl_models_are_bows/custom_splits_bijective/fb_train_triplets.txt')" # 
     max_num_objs=30
     lm="t5"
     layers_per_block = 2
@@ -58,5 +58,5 @@ class default_ConditionalTrainingConfig:
     vae_weights_dir = None
     init_from_ckpt = None
     trainable_parameters = []
-    
+
 

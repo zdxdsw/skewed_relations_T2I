@@ -19,7 +19,7 @@ np.set_printoptions(precision=4)
 from pprint import pprint
 import textwrap
 from datetime import datetime
-timezone = pytz.timezone('America/New_York') 
+timezone = pytz.timezone('America/Los_Angeles') 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--load_from_dir', type=str)

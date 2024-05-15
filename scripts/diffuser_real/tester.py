@@ -1,12 +1,12 @@
-import sys, os
+import sys, os, warnings
 sys.path.append("../diffuser_colored_sq/")
 from training_utils import numpy_to_pil, cycle
-from config import ConditionalTrainingConfig
+from config import ConditionalTrainingConfig, default_ConditionalTrainingConfig
 import torch, random, pytz, json, argparse
 from dataset import *
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm, trange
-from model import T2IDiffusion
+from model import T2IDiffusion, T2ILatentDiffusion
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,7 +19,7 @@ np.set_printoptions(precision=4)
 from pprint import pprint
 import textwrap
 from datetime import datetime
-timezone = pytz.timezone('America/New_York') 
+timezone = pytz.timezone('America/Los_Angeles') 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--load_from_dir', type=str)
@@ -35,9 +35,19 @@ args = parser.parse_args()
 
 ckpt = args.load_from_dir
 config = ConditionalTrainingConfig()
+default_config = default_ConditionalTrainingConfig()
+
 ckpt_config = json.load(open(os.path.join(config.output_dir, ckpt, "config.json"), "r"))
-for k, v in ckpt_config.items():
-    setattr(config, k, v)
+
+config_keys = dir(config)
+for k in config_keys:
+    if k.startswith("__"): continue
+    if k in ckpt_config: setattr(config, k, ckpt_config[k])
+    else:
+        setattr(config, k, default_config.__getattribute__(k))
+        warnings.warn(f"Cannot find {k} in the resume_from_config. Set to {default_config.__getattribute__(k)} by default.")
+
+
 if not "subsample_method" in ckpt_config: config.subsample_method = None
 if args.eval_batch_size is not None: config.eval_batch_size = args.eval_batch_size
 if args.split_method is not None: 
@@ -64,13 +74,19 @@ accelerator.wait_for_everyone()
 """ Prepare Data """
 annotations = json.load(open(config.annotations, "r"))
 
-train_data = real_dataset(
+train_data = eval(config.dataset_class)(
     config.imdir, annotations, imsize=config.image_size, 
     subsample_method=f"subsample_whatsup_{config.subsample_method}" if config.subsample_method is not None else None
 )
 
-test_tuples = get_test_tuples(train_data.data)
-test_data = real_dataset(config.imdir, test_tuples, imsize=config.image_size)
+if "singleobj" in config.dataset_class:
+    test_data = eval(config.dataset_class)(
+        config.imdir, annotations, imsize=config.image_size, 
+        subsample_method=f"subsample_whatsup_{config.subsample_method}" if config.subsample_method is not None else None
+    ) # test_data same as train_data for singleobj pretraining
+else:
+    test_tuples = get_test_tuples(train_data.data)
+    test_data = real_dataset(config.imdir, test_tuples, imsize=config.image_size)
 
 accelerator.print(f'Number of training examples: {len(train_data)}')
 accelerator.print(f'Number of testing examples: {len(test_data)}')
@@ -83,7 +99,16 @@ test_dataloader = DataLoader(test_data, shuffle=False, batch_size=config.eval_ba
 accelerator.print("Prepare Data: finish\n")
 
 
-model = T2IDiffusion(config)
+""" Prepare Model """
+if "vae_weights_dir" not in dir(config) or config.vae_weights_dir is None:
+    model = T2IDiffusion(config) 
+    accelerator.print("------------------------ create T2IDiffusion model ------------------------")
+else:
+    model = T2ILatentDiffusion(config)
+    model.vae.requires_grad_(False)
+    accelerator.print("------------------------ create T2ILatentDiffusion model ------------------------")
+    
+
 model, train_dataloader, test_dataloader = accelerator.prepare(model, train_dataloader, test_dataloader)
 
 args.load_from_epochs = [int(x) for x in args.load_from_epochs.split()]
