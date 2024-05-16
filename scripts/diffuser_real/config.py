@@ -7,7 +7,7 @@ class ConditionalTrainingConfig:
     annotations="../../data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json" #whatsup_vlm_b_lr.json"  #whatsup_vlm_b_lr_autofill.json" #  "vgr_nocaps_fb_both_complete.json"
     imdir="/data/yingshac/clevr_control/data/" 
     dataset_class="real_dataset" #"whatsup_singleobj_dataset" #
-    subsample_method="splitH"
+    subsample_method="splitU"
     lm="t5"
     layers_per_block = 2
     block_out_channels = (512, 512, 1024) #(512, 512, 1024, 1536)
@@ -40,7 +40,7 @@ class ConditionalTrainingConfig:
     t5_name = "t5-small" #"google/t5-v1_1-xxl" #"google/t5-efficient-xxl" #
     noise_schedule = "squaredcos_cap_v2"
     learning_rate = 5e-4 #1e-4 #
-    lr_warmup_steps = 1000
+    lr_warmup_steps = 0#1000
     gradient_accumulation_steps = 1
     train_batch_size = 4
     eval_batch_size = 18 #20  # how many images to sample during evaluation
@@ -49,8 +49,8 @@ class ConditionalTrainingConfig:
     conv_in_kernel = 3
     conv_out_kernel = 3
     trainable_parameters = ["attentions", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] # ["transformer_blocks.0.norm1", "attn1", "transformer_blocks.0.norm2", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] #
-    #load_from_dir = "0305_194724" 
-    init_from_ckpt = "0514_083120/ckpts/49999_100000_unet.pt" #"0304_002415/ckpts/49999_100000_unet.pt" # 1217_160404 
+    load_from_dir = "0516_001146" 
+    #init_from_ckpt = "0514_083120/ckpts/49999_100000_unet.pt" #"0304_002415/ckpts/49999_100000_unet.pt" # 1217_160404 
     vae_weights_dir = "/data/yingshac/clevr_control/from_pretrained/vae/sd2"
     vae_downsample_factor = 8
     latent_channels = 4
@@ -61,6 +61,7 @@ class default_ConditionalTrainingConfig:
     lm="t5"
     vae_weights_dir = None
     init_from_ckpt = None
+    load_from_dir = None
     trainable_parameters = []
     subsample_method = None
     latent_channels = None

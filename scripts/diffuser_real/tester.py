@@ -56,7 +56,7 @@ if args.split_method is not None:
     split_method_prefix = config.split_method+"_"
 else:
     split_method_prefix = ""
-if not os.path.exists("/data/yingshac"): config.ckpt_dir = config.output_dir
+#if not os.path.exists("/data/yingshac"): config.ckpt_dir = config.output_dir
 ckpt_dir = os.path.join(config.ckpt_dir, ckpt, "ckpts")
 
 

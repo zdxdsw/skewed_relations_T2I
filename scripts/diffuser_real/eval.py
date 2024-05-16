@@ -164,6 +164,7 @@ def eval_epoch(model, eval_batch_size, whichset, pilimages, gth_captions, device
 
 
 """ ---------------------------------------- Run Evaluation! ---------------------------------------- """
+scores = []
 ckpt_handle = args.ckpt_handle
 for split_for_eval in args.split_for_eval.split():
     for target_epoch in [int(x) for x in args.epochs_for_eval.split()]:
@@ -198,11 +199,18 @@ for split_for_eval in args.split_for_eval.split():
         em, count = sum([a==1 for a in ACC]), len(ACC)
         error_analysis = {k: f"{round(DETAIL[k]*100/count, 1)}%" for k in sorted(list(DETAIL.keys()))}
 
-        print(f"Epoch {target_epoch} {split_for_eval} acc = {em/count:.4f} ({em}/{count})")
+        message = f"Epoch {target_epoch} {split_for_eval} acc = {em/count:.4f} ({em}/{count})"
+        print(message)
+        scores.append(message)
         if args.print_errors: 
             print(error_analysis, "\n")
-        if target_epoch - (target_epoch // 100)*100 >= 99: print()
+        if target_epoch - (target_epoch // 1000)*1000 >= 999: 
+            print()
+            scores.append(" ")
     
+    with open(f"{args.output_folder}/{args.ckpt_handle}/scores.txt", "w") as f:
+        f.write("\n".join(scores))
+
     if args.print_errors:
         for i, c in enumerate(classes):
             print("{} has been mistakenly generated as: {}".format(c, [f"{classes[j]}: {CONFUSION[i][j]}" for j in range(len(classes)) if CONFUSION[i][j]>0]))
