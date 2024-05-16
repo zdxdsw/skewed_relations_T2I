@@ -7,7 +7,7 @@ class ConditionalTrainingConfig:
     annotations="../../data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json" #whatsup_vlm_b_lr.json"  #whatsup_vlm_b_lr_autofill.json" #  "vgr_nocaps_fb_both_complete.json"
     imdir="/data/yingshac/clevr_control/data/" 
     dataset_class="real_dataset" #"whatsup_singleobj_dataset" #
-    subsample_method="splitE"
+    subsample_method="splitH"
     lm="t5"
     layers_per_block = 2
     block_out_channels = (512, 512, 1024) #(512, 512, 1024, 1536)
@@ -30,12 +30,12 @@ class ConditionalTrainingConfig:
     cross_attention_dim = 128
     only_cross_attention = False
     dual_cross_attention = False
-    image_size = (256, 256) #(128, 128) #(32,64)  # the generated image resolution
+    image_size = (128, 256) #(128, 128) #(32,64)  # the generated image resolution
     patch_size = 2
     mixed_precision = "fp16"  # `no` for float32, `fp16` for automatic mixed precision
     output_dir = "output_rbt"
     ckpt_dir = "/data/yingshac/clevr_control/scripts/diffuser_real/output" #"output"
-    save_image_steps = 500 #3000 #
+    save_image_steps = 2000 #3000 #
     save_model_epochs = 200 #5000 #
     t5_name = "t5-small" #"google/t5-v1_1-xxl" #"google/t5-efficient-xxl" #
     noise_schedule = "squaredcos_cap_v2"
@@ -58,7 +58,10 @@ class ConditionalTrainingConfig:
 
 @dataclass
 class default_ConditionalTrainingConfig:
+    lm="t5"
     vae_weights_dir = None
     init_from_ckpt = None
     trainable_parameters = []
     subsample_method = None
+    latent_channels = None
+    vae_downsample_factor = 1

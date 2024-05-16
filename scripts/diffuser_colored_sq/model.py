@@ -4,7 +4,7 @@ import torch, PIL, os, sys, math
 sys.path.append("../")
 #from t5 import encode_text
 from functools import partial
-
+from torchvision import transforms
 from torch import nn
 from tqdm import tqdm
 from diffusers.models import AutoencoderKL, UNet2DConditionModel, UNet2DModel
@@ -83,6 +83,9 @@ class T2IDiffusion(nn.Module):
             name = config.t5_name,
             dtype = config.mixed_precision
         )
+
+        #self.postprocess = transforms.Normalize(mean=[-0.485/0.229, -0.456/0.224, -0.406/0.225], std=[1/0.229, 1/0.224, 1/0.225])
+
     
     def forward(self, clean_images, texts):
         #self.unet.train()
@@ -138,6 +141,8 @@ class T2IDiffusion(nn.Module):
         #_min, _max = image.amin(dim=(1, 2, 3)), image.amax(dim=(1, 2, 3))
         #image = (image - _min[:, :, :, None]) / (_max-_min)[:, :, :, None]
         image = (image / 2 + 0.5).clamp(0, 1) # (image / 2 + 0.5).
+        #image = self.postprocess(image).clamp(0, 1)
+
         image = image.cpu().permute(0, 2, 3, 1).numpy() # (bs, h, w, c)
         num_placeholder = math.ceil(len(texts)/16) * 16 - len(texts)
         if num_placeholder:
@@ -302,6 +307,8 @@ class T2ILatentDiffusion(nn.Module):
             name = config.t5_name,
             dtype = config.mixed_precision
         )
+
+        #self.postprocess = transforms.Normalize(mean=[-0.485/0.229, -0.456/0.224, -0.406/0.225], std=[1/0.229, 1/0.224, 1/0.225])
     
     def forward(self, clean_images, texts):
         #self.unet.train()
@@ -367,7 +374,10 @@ class T2ILatentDiffusion(nn.Module):
             image = 1 / self.vae.config.scaling_factor * image
             image = self.vae.decode(image).sample #.clamp(0, 1)
         
-        image = (image / 2 + 0.5).clamp(0, 1) 
+        
+        image = (image / 2 + 0.5).clamp(0, 1)
+        #image = self.postprocess(image)
+        
         #print("image.shape = ", image.shape)
         image = image.cpu().permute(0, 2, 3, 1).numpy() # (bs, h, w, c)
         num_placeholder = math.ceil(len(texts)/16) * 16 - len(texts)

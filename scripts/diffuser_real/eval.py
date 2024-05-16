@@ -52,6 +52,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--epochs_for_eval', type=str)
 parser.add_argument('--split_for_eval', type=str, default="test train")
 parser.add_argument('--ckpt_handle', type=str)
+parser.add_argument('--output_folder', type=str, default="output")
 parser.add_argument('--eval_batch_size', type=int, default=16)
 parser.add_argument('--vit_for_autoeval_ckpt_dir', type=str, default="/data/yingshac/clevr_control/autoeval/")
 parser.add_argument('--vit_for_autoeval_ckpt_name', type=str, default="vit-base-patch16-224-in21k_0311_211459.pt") #in21k_0303_182910
@@ -59,6 +60,7 @@ parser.add_argument('--device', type=int, default=0)
 parser.add_argument('--print_errors', action='store_true')
 args = parser.parse_args()
 
+config = json.load(open(os.path.join(args.output_folder, args.ckpt_handle, "config.json"), "r"))
 
 #classes = ['empty', 'mug', 'plate', 'book', 'bowl', 'can', 'cap', 'cup', 'remote', 'sunglasses', 
 #          'tape', 'candle', 'flower', 'fork', 'headphones', 'scissors', 'spoon', 'knife', 'phone']
@@ -165,13 +167,13 @@ def eval_epoch(model, eval_batch_size, whichset, pilimages, gth_captions, device
 ckpt_handle = args.ckpt_handle
 for split_for_eval in args.split_for_eval.split():
     for target_epoch in [int(x) for x in args.epochs_for_eval.split()]:
-        image_height, image_width = 32, 64
+        image_height, image_width = config['image_size']
 
         pilimages, gth_captions = [], []
-        for infr_handle in os.listdir(f"output/{ckpt_handle}/infr/{split_for_eval}_sentences"):
+        for infr_handle in os.listdir(f"{args.output_folder}/{ckpt_handle}/infr/{split_for_eval}_sentences"):
             epoch_for_eval = int(re.findall(r'epoch(\d+)', infr_handle)[0])
             if epoch_for_eval == target_epoch:
-                samples_dir = f"output/{ckpt_handle}/infr/{split_for_eval}_sentences/{infr_handle}/samples"
+                samples_dir = f"{args.output_folder}/{ckpt_handle}/infr/{split_for_eval}_sentences/{infr_handle}/samples"
                 for f in os.listdir(samples_dir):
                     if ".png" in f:
                         im = Image.open(os.path.join(samples_dir, f)).convert("RGB")
