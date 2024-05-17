@@ -1,0 +1,24 @@
+#unique subjects =  753
+#unique objects =  686
+#unique concepts =  828
+#instances = 21944
+
+role intrinsic meanings: linguistic position
+
+concept_centric_entropy3 :  2.9955506027378007
+concept_centric_entropy4 :  1.4121281913224546
+concept_centric_entropy5 :  1.281369504713808
+relation_centric_entropy3 :  8.25011139306136
+relation_centric_entropy4 :  4.699260278799732
+relation_centric_entropy5 :  4.603511178548084
+divergence :  -2.1019063077085844
+divergence2 :  -0.4518344935637687
+divergence3 :  -0.5825931801724241
+concept_role_entropy :  4.5884101576232315
+concept_role_entropy2 :  4.623419743980259
+role_association :  3.298832023892253
+role_association2 :  3.333841610249327
+concept_entropy :  5.151094772363453
+concept_entropy2 :  5.186104358720435
+concept_entropy0 :  5.176008850384905
+concept_role_index_entropy :  0.6624859922086349

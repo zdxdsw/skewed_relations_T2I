@@ -1,0 +1,18 @@
+relations: "top bottom"
+heldout_ratio: 0.2
+hidden_dim_multipliers: []
+batch_size: 64
+epochs: 20
+lr: 1e-4
+save_dir: "ckpts"
+nouns_file: "../../data/nouns/round5/nouns.txt"
+ood_nouns_file: "../../data/nouns/round5/ood_nouns.txt"
+whoseroles: "visual"
+date: "debug"
+lm: t5
+lm_howto_select_encoding_positions: encode_subj_obj
+lm_kwargs:
+  token_pos: 'last'
+  #name: 'google/flan-t5-xxl'
+  name: 't5-small'
+  dtype: 'no'
