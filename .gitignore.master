@@ -1,6 +1,6 @@
 data/sheets_icons
 data/flickr30k
 notebooks
-formalism/metrics_naive
-formalism/metrics_transpose_R2
+scripts/formalism/metrics_naive
+scripts/formalism/metrics_transpose_R2
 controlled_probing
