@@ -1,0 +1,18 @@
+a soap is on top of a dryer.
+a dryer is at the bottom of a soap.
+a soap is on top of a blanket.
+a blanket is at the bottom of a soap.
+a soap is on top of a burger.
+a burger is at the bottom of a soap.
+a camera is on top of a soda.
+a soda is at the bottom of a camera.
+a camera is on top of a backpack.
+a backpack is at the bottom of a camera.
+a camera is on top of a vase.
+a vase is at the bottom of a camera.
+a camera is on top of a piano.
+a piano is at the bottom of a camera.
+a camera is on top of a bench.
+a bench is at the bottom of a camera.
+a camera is on top of a rock.
+a rock is at the bottom of a camera.

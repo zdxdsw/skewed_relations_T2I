@@ -1,0 +1,20 @@
+a ruler is on top of a vest.
+a vest is at the bottom of a ruler.
+a ruler is on top of a plant.
+a plant is at the bottom of a ruler.
+a ruler is on top of a compass.
+a compass is at the bottom of a ruler.
+a ruler is on top of a violin.
+a violin is at the bottom of a ruler.
+a ruler is on top of a globe.
+a globe is at the bottom of a ruler.
+a ship is on top of a binder.
+a binder is at the bottom of a ship.
+a ship is on top of an eggplant.
+an eggplant is at the bottom of a ship.
+a ship is on top of a blender.
+a blender is at the bottom of a ship.
+a ship is on top of a can.
+a can is at the bottom of a ship.
+a ship is on top of an apron.
+an apron is at the bottom of a ship.

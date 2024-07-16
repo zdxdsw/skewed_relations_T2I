@@ -1,0 +1,20 @@
+a sweater is at the bottom of a rock.
+a cupcake is at the bottom of a rock.
+a ruler is at the bottom of a rock.
+a ship is at the bottom of a rock.
+a kite is at the bottom of a rock.
+a woman is at the bottom of a rock.
+a calculator is at the bottom of a rock.
+a clock is at the bottom of a rock.
+a pie is on top of a soda.
+a soda is at the bottom of a pie.
+a pie is on top of a backpack.
+a backpack is at the bottom of a pie.
+a pie is on top of a vase.
+a vase is at the bottom of a pie.
+a pie is on top of a piano.
+a piano is at the bottom of a pie.
+a pie is on top of a bench.
+a bench is at the bottom of a pie.
+a pie is on top of a rock.
+a rock is at the bottom of a pie.

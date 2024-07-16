@@ -1,0 +1,20 @@
+a shoe is on top of a jacket.
+a jacket is at the bottom of a shoe.
+a shoe is on top of a carrot.
+a carrot is at the bottom of a shoe.
+a pen is on top of a soda.
+a soda is at the bottom of a pen.
+a pen is on top of a backpack.
+a backpack is at the bottom of a pen.
+a pen is on top of a vase.
+a vase is at the bottom of a pen.
+a pen is on top of a piano.
+a piano is at the bottom of a pen.
+a pen is on top of a bench.
+a bench is at the bottom of a pen.
+a pen is on top of a rock.
+a rock is at the bottom of a pen.
+a pen is on top of a pie.
+a pie is at the bottom of a pen.
+a pen is on top of a sheep.
+a sheep is at the bottom of a pen.

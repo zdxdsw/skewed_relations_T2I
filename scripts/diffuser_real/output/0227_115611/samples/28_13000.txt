@@ -1,0 +1,20 @@
+the dog is above the chair
+the carpet is under the suitcase
+the carpet is below the suitcase
+the suitcase is above the carpet
+the plate is on the table
+the table is on the floor
+the motorcycle is on the floor
+the motorcycle is on the carpet
+the salad is on the plate
+the pastry is on the plate
+the cat is above the box
+the box is under the cat
+the skateboard is on the sidewalk
+the mirror is on the wall
+the bowls is on the table
+the bowls is on top of the table
+the bowls is on the table
+the bowls is on the table
+the bowls is on the table
+the bowls is on the table

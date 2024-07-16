@@ -1,0 +1,20 @@
+a camera is on top of a horse.
+a horse is at the bottom of a camera.
+a camera is on top of a cabinet.
+a cabinet is at the bottom of a camera.
+a camera is on top of a shoe.
+a shoe is at the bottom of a camera.
+a camera is on top of a pen.
+a pen is at the bottom of a camera.
+a camera is on top of a helicopter.
+a helicopter is at the bottom of a camera.
+a jar is on top of a laddar.
+a laddar is at the bottom of a jar.
+a jar is on top of a dryer.
+a dryer is at the bottom of a jar.
+a jar is on top of a blanket.
+a blanket is at the bottom of a jar.
+a jar is on top of a burger.
+a burger is at the bottom of a jar.
+a jar is on top of a wallet.
+a wallet is at the bottom of a jar.

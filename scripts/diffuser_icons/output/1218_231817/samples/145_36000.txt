@@ -1,0 +1,20 @@
+a dumpling is on top of a pole.
+a pole is at the bottom of a dumpling.
+a dumpling is on top of a tie.
+a tie is at the bottom of a dumpling.
+a dumpling is on top of a card.
+a card is at the bottom of a dumpling.
+a dumpling is on top of an apple.
+an apple is at the bottom of a dumpling.
+a dumpling is on top of a book.
+a book is at the bottom of a dumpling.
+a dumpling is on top of a waffle.
+a waffle is at the bottom of a dumpling.
+a dumpling is on top of a skirt.
+a skirt is at the bottom of a dumpling.
+a dumpling is on top of a fence.
+a fence is at the bottom of a dumpling.
+a dumpling is on top of a wheel.
+a wheel is at the bottom of a dumpling.
+a dumpling is on top of a bat.
+a bat is at the bottom of a dumpling.

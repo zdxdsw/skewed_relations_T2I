@@ -1,0 +1,55 @@
+{
+  "block_out_channels": [
+    64,
+    256,
+    1024
+  ],
+  "ckpt_dir": "/home/ubuntu/largefiles/clevr_control/scripts/diffuser_icons/output_rbt",
+  "conv_in_kernel": 3,
+  "conv_out_kernel": 3,
+  "cross_attention_dim": 128,
+  "date": "0515_081337",
+  "down_block_types": [
+    "DownBlock2D",
+    "CrossAttnDownBlock2D",
+    "CrossAttnDownBlock2D"
+  ],
+  "draw_icon_font_size": 120,
+  "dual_cross_attention": false,
+  "encoder_hid_dim_type": "text_proj",
+  "eval_batch_size": 18,
+  "experiment": "conditional",
+  "gradient_accumulation_steps": 1,
+  "icons_file": "../../data/matplotlib/unicode.jsonl",
+  "image_size": [
+    256,
+    128
+  ],
+  "init_from_ckpt": "0514_082837/ckpts/4999_30000_unet.pt",
+  "latent_channels": 4,
+  "layers_per_block": 2,
+  "learning_rate": 0.0001,
+  "lm": "t5",
+  "lr_warmup_steps": 1000,
+  "max_num_objs": 30,
+  "mixed_precision": "fp16",
+  "noise_schedule": "squaredcos_cap_v2",
+  "nouns_file": "../../data/nouns/all_nouns.txt",
+  "num_epochs": 600,
+  "num_train_timesteps": 100,
+  "only_cross_attention": false,
+  "output_dir": "output_rbt",
+  "patch_size": 2,
+  "save_image_steps": 1000,
+  "save_model_epochs": 20,
+  "split_method": "split20",
+  "t5_name": "t5-small",
+  "train_batch_size": 4,
+  "up_block_types": [
+    "CrossAttnUpBlock2D",
+    "CrossAttnUpBlock2D",
+    "UpBlock2D"
+  ],
+  "vae_downsample_factor": 8,
+  "vae_weights_dir": "/home/ubuntu/largefiles/clevr_control/from_pretrained/vae/sd2"
+}

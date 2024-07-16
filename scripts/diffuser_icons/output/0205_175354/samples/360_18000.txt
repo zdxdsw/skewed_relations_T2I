@@ -1,0 +1,20 @@
+a camera is on top of an apron.
+an apron is at the bottom of a camera.
+a camera is on top of a pencil.
+a pencil is at the bottom of a camera.
+a camera is on top of a cup.
+a cup is at the bottom of a camera.
+a camera is on top of a rabbit.
+a rabbit is at the bottom of a camera.
+a camera is on top of a toy.
+a toy is at the bottom of a camera.
+a jar is on top of a soda.
+a jar is on top of a backpack.
+a jar is on top of a vase.
+a jar is on top of a piano.
+a jar is on top of a bench.
+a jar is on top of a rock.
+a jar is on top of a pie.
+a jar is on top of a sheep.
+a jar is on top of a bowl.
+a jar is on top of a saucer.

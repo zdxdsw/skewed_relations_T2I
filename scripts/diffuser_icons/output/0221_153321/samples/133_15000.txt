@@ -1,0 +1,20 @@
+an eraser is at the bottom of a rock.
+a folder is at the bottom of a rock.
+a cake is at the bottom of a rock.
+a belt is at the bottom of a rock.
+a sandwich is at the bottom of a rock.
+a swan is at the bottom of a rock.
+a stool is at the bottom of a rock.
+a horse is at the bottom of a rock.
+a pie is on top of a soda.
+a soda is at the bottom of a pie.
+a pie is on top of a backpack.
+a backpack is at the bottom of a pie.
+a pie is on top of a vase.
+a vase is at the bottom of a pie.
+a pie is on top of a piano.
+a piano is at the bottom of a pie.
+a pie is on top of a bench.
+a bench is at the bottom of a pie.
+a pie is on top of a rock.
+a rock is at the bottom of a pie.

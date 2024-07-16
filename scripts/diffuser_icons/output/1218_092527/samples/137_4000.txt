@@ -1,0 +1,20 @@
+a calculator is at the bottom of a piano.
+a clock is at the bottom of a piano.
+a jacket is at the bottom of a piano.
+a carrot is at the bottom of a piano.
+a keyboard is at the bottom of a piano.
+a soap is at the bottom of a piano.
+a camera is at the bottom of a piano.
+a jar is at the bottom of a piano.
+a laddar is at the bottom of a piano.
+a dryer is at the bottom of a piano.
+a blanket is at the bottom of a piano.
+a burger is at the bottom of a piano.
+a bench is on top of a soda.
+a soda is at the bottom of a bench.
+a bench is on top of a backpack.
+a backpack is at the bottom of a bench.
+a bench is on top of a vase.
+a vase is at the bottom of a bench.
+a bench is on top of a piano.
+a piano is at the bottom of a bench.

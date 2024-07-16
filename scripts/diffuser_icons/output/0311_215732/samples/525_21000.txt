@@ -1,0 +1,20 @@
+a ship is on top of a bowl.
+a ship is on top of a saucer.
+a ship is on top of a dumpling.
+a ship is on top of a screen.
+a calculator is at the bottom of a ship.
+a clock is at the bottom of a ship.
+a jacket is at the bottom of a ship.
+a carrot is at the bottom of a ship.
+a keyboard is at the bottom of a ship.
+a soap is at the bottom of a ship.
+a camera is at the bottom of a ship.
+a jar is at the bottom of a ship.
+a laddar is at the bottom of a ship.
+a dryer is at the bottom of a ship.
+a blanket is at the bottom of a ship.
+a burger is at the bottom of a ship.
+a kite is on top of a soda.
+a kite is on top of a backpack.
+a kite is on top of a vase.
+a kite is on top of a piano.

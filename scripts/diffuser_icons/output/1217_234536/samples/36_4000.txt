@@ -1,0 +1,20 @@
+a backpack is on top of a shoe.
+a shoe is at the bottom of a backpack.
+a backpack is on top of a pen.
+a pen is at the bottom of a backpack.
+a backpack is on top of a helicopter.
+a helicopter is at the bottom of a backpack.
+a backpack is on top of a calender.
+a calender is at the bottom of a backpack.
+a backpack is on top of a car.
+a car is at the bottom of a backpack.
+a backpack is on top of a coat.
+a coat is at the bottom of a backpack.
+a backpack is on top of a cloak.
+a cloak is at the bottom of a backpack.
+a backpack is on top of a bag.
+a bag is at the bottom of a backpack.
+a backpack is on top of a bouquet.
+a bouquet is at the bottom of a backpack.
+a soda is at the bottom of a vase.
+a backpack is at the bottom of a vase.

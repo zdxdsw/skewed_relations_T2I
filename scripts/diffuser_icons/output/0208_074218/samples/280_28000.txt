@@ -1,0 +1,20 @@
+a dumpling is on top of a laddar.
+a laddar is at the bottom of a dumpling.
+a dumpling is on top of a dryer.
+a dryer is at the bottom of a dumpling.
+a dumpling is on top of a blanket.
+a blanket is at the bottom of a dumpling.
+a screen is on top of a soda.
+a soda is at the bottom of a screen.
+a screen is on top of a backpack.
+a backpack is at the bottom of a screen.
+a screen is on top of a vase.
+a vase is at the bottom of a screen.
+a screen is on top of a piano.
+a piano is at the bottom of a screen.
+a screen is on top of a bench.
+a bench is at the bottom of a screen.
+a screen is on top of a rock.
+a rock is at the bottom of a screen.
+a screen is on top of a pie.
+a pie is at the bottom of a screen.

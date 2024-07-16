@@ -1,0 +1,20 @@
+a can is at the bottom of a pie.
+an apron is at the bottom of a pie.
+a pencil is at the bottom of a pie.
+a cup is at the bottom of a pie.
+a rabbit is at the bottom of a pie.
+a toy is at the bottom of a pie.
+a sheep is on top of a soda.
+a soda is at the bottom of a sheep.
+a sheep is on top of a backpack.
+a backpack is at the bottom of a sheep.
+a sheep is on top of a vase.
+a vase is at the bottom of a sheep.
+a sheep is on top of a piano.
+a piano is at the bottom of a sheep.
+a sheep is on top of a bench.
+a bench is at the bottom of a sheep.
+a sheep is on top of a rock.
+a rock is at the bottom of a sheep.
+a sheep is on top of a pie.
+a pie is at the bottom of a sheep.

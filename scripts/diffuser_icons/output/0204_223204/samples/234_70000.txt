@@ -1,0 +1,20 @@
+a helicopter is at the bottom of a screen.
+a calender is at the bottom of a screen.
+a car is at the bottom of a screen.
+a coat is at the bottom of a screen.
+a cloak is at the bottom of a screen.
+a screen is on top of a bouquet.
+a screen is on top of a kettle.
+a screen is on top of a puppy.
+a screen is on top of a burrito.
+a screen is on top of a comb.
+a screen is on top of a pear.
+a screen is on top of a dumbbell.
+a screen is on top of a phone.
+a screen is on top of a tote.
+a screen is on top of a hoodie.
+a screen is on top of a wall.
+a soda is at the bottom of a sweater.
+a backpack is at the bottom of a sweater.
+a vase is at the bottom of a sweater.
+a piano is at the bottom of a sweater.

@@ -1,0 +1,20 @@
+a waffle is at the bottom of a sweater.
+a skirt is at the bottom of a sweater.
+a fence is at the bottom of a sweater.
+a wheel is at the bottom of a sweater.
+a bat is at the bottom of a sweater.
+a saddle is at the bottom of a sweater.
+a vest is at the bottom of a sweater.
+a plant is at the bottom of a sweater.
+a compass is at the bottom of a sweater.
+a violin is at the bottom of a sweater.
+a globe is at the bottom of a sweater.
+a body is at the bottom of a sweater.
+a cupcake is on top of a soda.
+a soda is at the bottom of a cupcake.
+a cupcake is on top of a backpack.
+a backpack is at the bottom of a cupcake.
+a cupcake is on top of a vase.
+a vase is at the bottom of a cupcake.
+a cupcake is on top of a piano.
+a piano is at the bottom of a cupcake.

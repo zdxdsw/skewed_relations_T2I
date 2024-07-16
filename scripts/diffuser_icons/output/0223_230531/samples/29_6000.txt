@@ -1,0 +1,20 @@
+a backpack is on top of a swan.
+a swan is at the bottom of a backpack.
+a stool is at the bottom of a backpack.
+a horse is at the bottom of a backpack.
+a cabinet is at the bottom of a backpack.
+a shoe is at the bottom of a backpack.
+a pen is at the bottom of a backpack.
+a helicopter is at the bottom of a backpack.
+a calender is at the bottom of a backpack.
+a car is at the bottom of a backpack.
+a coat is at the bottom of a backpack.
+a cloak is at the bottom of a backpack.
+a bag is at the bottom of a backpack.
+a bouquet is at the bottom of a backpack.
+a backpack is on top of a kettle.
+a backpack is on top of a puppy.
+a backpack is on top of a burrito.
+a backpack is on top of a comb.
+a backpack is on top of a pear.
+a backpack is on top of a dumbbell.

@@ -1,0 +1,20 @@
+a blender is on top of a kite.
+a kite is at the bottom of a blender.
+a can is on top of a soda.
+a soda is at the bottom of a can.
+a can is on top of a backpack.
+a backpack is at the bottom of a can.
+a can is on top of a vase.
+a vase is at the bottom of a can.
+a can is on top of a piano.
+a piano is at the bottom of a can.
+a can is on top of a bench.
+a bench is at the bottom of a can.
+a can is on top of a rock.
+a rock is at the bottom of a can.
+a can is on top of a pie.
+a pie is at the bottom of a can.
+a can is on top of a sheep.
+a sheep is at the bottom of a can.
+a can is on top of a bowl.
+a bowl is at the bottom of a can.

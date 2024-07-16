@@ -1,0 +1,20 @@
+the man is in front of the wall
+the wall is behind the man
+the woman is in front of the fence
+the fence is in front of the giraffe
+the fence is behind the woman
+the giraffe is behind the fence
+the tree is behind the cow
+the cow is in front of the tree
+the window is behind the curtain
+the curtain is in front of the window
+the couple is behind the water
+the water is in front of the couple
+the giraffe is in front of the wall
+the wall is behind the giraffe
+the fence is behind the batter
+the batter is in front of the fence
+the wall is behind the lady
+the lady is in front of the wall
+the trees is behind the zebra
+the zebra is in front of the trees

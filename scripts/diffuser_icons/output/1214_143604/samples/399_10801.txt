@@ -1,0 +1,20 @@
+a backpack is on top of a laddar.
+a laddar is at the bottom of a backpack.
+a backpack is on top of a dryer.
+a dryer is at the bottom of a backpack.
+a backpack is on top of a blanket.
+a blanket is at the bottom of a backpack.
+a backpack is on top of a burger.
+a burger is at the bottom of a backpack.
+a soda is at the bottom of a vase.
+a backpack is at the bottom of a vase.
+a piano is at the bottom of a vase.
+a bench is at the bottom of a vase.
+a rock is at the bottom of a vase.
+a pie is at the bottom of a vase.
+a sheep is at the bottom of a vase.
+a bowl is at the bottom of a vase.
+a saucer is at the bottom of a vase.
+a dumpling is at the bottom of a vase.
+a screen is at the bottom of a vase.
+a sweater is at the bottom of a vase.

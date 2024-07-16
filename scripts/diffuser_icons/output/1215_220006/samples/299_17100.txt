@@ -1,0 +1,20 @@
+a jar is on top of a laddar.
+a laddar is at the bottom of a jar.
+a jar is on top of a dryer.
+a dryer is at the bottom of a jar.
+a jar is on top of a blanket.
+a blanket is at the bottom of a jar.
+a jar is on top of a burger.
+a burger is at the bottom of a jar.
+a laddar is on top of a ship.
+a ship is at the bottom of a laddar.
+a laddar is on top of a kite.
+a kite is at the bottom of a laddar.
+a laddar is on top of a woman.
+a woman is at the bottom of a laddar.
+a laddar is on top of a calculator.
+a calculator is at the bottom of a laddar.
+a laddar is on top of a clock.
+a clock is at the bottom of a laddar.
+a laddar is on top of a jacket.
+a jacket is at the bottom of a laddar.

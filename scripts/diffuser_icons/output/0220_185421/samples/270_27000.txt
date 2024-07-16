@@ -1,0 +1,20 @@
+a dumpling is on top of a swan.
+a swan is at the bottom of a dumpling.
+a dumpling is on top of a stool.
+a stool is at the bottom of a dumpling.
+a dumpling is on top of a horse.
+a horse is at the bottom of a dumpling.
+a screen is on top of a soda.
+a soda is at the bottom of a screen.
+a screen is on top of a backpack.
+a backpack is at the bottom of a screen.
+a screen is on top of a vase.
+a vase is at the bottom of a screen.
+a screen is on top of a jacket.
+a jacket is at the bottom of a screen.
+a screen is on top of a carrot.
+a carrot is at the bottom of a screen.
+a screen is on top of a keyboard.
+a keyboard is at the bottom of a screen.
+a screen is on top of a soap.
+a soap is at the bottom of a screen.

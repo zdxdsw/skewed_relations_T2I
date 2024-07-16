@@ -1,0 +1,20 @@
+a dumpling is on top of a calender.
+a calender is at the bottom of a dumpling.
+a dumpling is on top of a car.
+a car is at the bottom of a dumpling.
+a dumpling is on top of a coat.
+a coat is at the bottom of a dumpling.
+a dumpling is on top of a cloak.
+a cloak is at the bottom of a dumpling.
+a dumpling is on top of a bag.
+a bag is at the bottom of a dumpling.
+a dumpling is on top of a bouquet.
+a bouquet is at the bottom of a dumpling.
+a dumpling is on top of a kettle.
+a kettle is at the bottom of a dumpling.
+a dumpling is on top of a puppy.
+a puppy is at the bottom of a dumpling.
+a dumpling is on top of a burrito.
+a burrito is at the bottom of a dumpling.
+a dumpling is on top of a comb.
+a comb is at the bottom of a dumpling.

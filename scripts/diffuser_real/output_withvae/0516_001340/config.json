@@ -1,0 +1,58 @@
+{
+  "annotations": "../../data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json",
+  "block_out_channels": [
+    512,
+    512,
+    1024
+  ],
+  "ckpt_dir": "/home/ubuntu/largefiles/clevr_control/scripts/diffuser_real/output_rbt",
+  "conv_in_kernel": 3,
+  "conv_out_kernel": 3,
+  "cross_attention_dim": 128,
+  "dataset_class": "real_dataset",
+  "date": "0516_001340",
+  "down_block_types": [
+    "DownBlock2D",
+    "CrossAttnDownBlock2D",
+    "CrossAttnDownBlock2D"
+  ],
+  "dual_cross_attention": false,
+  "encoder_hid_dim_type": "text_proj",
+  "eval_batch_size": 18,
+  "experiment": "real_conditional",
+  "gradient_accumulation_steps": 1,
+  "image_size": [
+    128,
+    256
+  ],
+  "imdir": "/home/ubuntu/largefiles/clevr_control/data/",
+  "init_from_ckpt": "0514_083120/ckpts/49999_100000_unet.pt",
+  "latent_channels": 4,
+  "layers_per_block": 2,
+  "learning_rate": 0.0005,
+  "lm": "t5",
+  "lr_warmup_steps": 1000,
+  "mixed_precision": "fp16",
+  "noise_schedule": "squaredcos_cap_v2",
+  "num_epochs": 6000,
+  "num_train_timesteps": 100,
+  "only_cross_attention": false,
+  "output_dir": "output_rbt",
+  "patch_size": 2,
+  "save_image_steps": 2000,
+  "save_model_epochs": 200,
+  "subsample_method": "splitI",
+  "t5_name": "t5-small",
+  "train_batch_size": 4,
+  "trainable_parameters": [
+    "attentions",
+    "encoder_hid_proj"
+  ],
+  "up_block_types": [
+    "CrossAttnUpBlock2D",
+    "CrossAttnUpBlock2D",
+    "UpBlock2D"
+  ],
+  "vae_downsample_factor": 8,
+  "vae_weights_dir": "/home/ubuntu/largefiles/clevr_control/from_pretrained/vae/sd2"
+}

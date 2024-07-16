@@ -1,0 +1,20 @@
+a comb is on top of a helicopter.
+a comb is on top of a calender.
+a comb is on top of a car.
+a comb is on top of a coat.
+a comb is on top of a cloak.
+a comb is on top of a bag.
+a comb is on top of a bouquet.
+a comb is on top of a kettle.
+a comb is on top of a puppy.
+a comb is on top of a burrito.
+a pear is at the bottom of a comb.
+a dumbbell is at the bottom of a comb.
+a phone is at the bottom of a comb.
+a tote is at the bottom of a comb.
+a hoodie is at the bottom of a comb.
+a wall is at the bottom of a comb.
+a pear is on top of a soda.
+a pear is on top of a backpack.
+a pear is on top of a vase.
+a pear is on top of a piano.

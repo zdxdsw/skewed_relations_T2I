@@ -1,0 +1,20 @@
+a sweater is on top of a cupcake.
+a cupcake is at the bottom of a sweater.
+a sweater is on top of a ruler.
+a ruler is at the bottom of a sweater.
+a sweater is on top of a ship.
+a ship is at the bottom of a sweater.
+a sweater is on top of a kite.
+a kite is at the bottom of a sweater.
+a sweater is on top of a woman.
+a woman is at the bottom of a sweater.
+a sweater is on top of a calculator.
+a calculator is at the bottom of a sweater.
+a sweater is on top of a clock.
+a clock is at the bottom of a sweater.
+a cupcake is on top of a soda.
+a soda is at the bottom of a cupcake.
+a cupcake is on top of a backpack.
+a backpack is at the bottom of a cupcake.
+a cupcake is on top of a vase.
+a vase is at the bottom of a cupcake.

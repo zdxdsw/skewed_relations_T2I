@@ -1,0 +1,20 @@
+a folder is at the bottom of a rock.
+a rock is on top of a cake.
+a cake is at the bottom of a rock.
+a rock is on top of a belt.
+a belt is at the bottom of a rock.
+a rock is on top of a sandwich.
+a sandwich is at the bottom of a rock.
+a rock is on top of a swan.
+a swan is at the bottom of a rock.
+a rock is on top of a stool.
+a stool is at the bottom of a rock.
+a rock is on top of a horse.
+a horse is at the bottom of a rock.
+a rock is on top of a cabinet.
+a cabinet is at the bottom of a rock.
+a rock is on top of a shoe.
+a shoe is at the bottom of a rock.
+a rock is on top of a pen.
+a pen is at the bottom of a rock.
+a rock is on top of a helicopter.

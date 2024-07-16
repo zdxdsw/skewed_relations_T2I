@@ -1,0 +1,20 @@
+a blanket is on top of a carrot.
+a carrot is at the bottom of a blanket.
+a blanket is on top of a keyboard.
+a keyboard is at the bottom of a blanket.
+a blanket is on top of a soap.
+a soap is at the bottom of a blanket.
+a blanket is on top of a camera.
+a camera is at the bottom of a blanket.
+a blanket is on top of a jar.
+a jar is at the bottom of a blanket.
+a blanket is on top of a laddar.
+a laddar is at the bottom of a blanket.
+a blanket is on top of a dryer.
+a dryer is at the bottom of a blanket.
+a blanket is on top of a burger.
+a burger is at the bottom of a blanket.
+a burger is on top of a soda.
+a soda is at the bottom of a burger.
+a burger is on top of a backpack.
+a backpack is at the bottom of a burger.

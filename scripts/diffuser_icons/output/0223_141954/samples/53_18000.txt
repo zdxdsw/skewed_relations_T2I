@@ -1,0 +1,20 @@
+a bench is on top of a saucer.
+a bench is on top of a dumpling.
+a bench is on top of a screen.
+a bench is on top of a sweater.
+a bench is on top of a cupcake.
+a bench is on top of a ruler.
+a bench is on top of a ship.
+a bench is on top of a kite.
+a bench is on top of a woman.
+a bench is on top of a calculator.
+a bench is on top of a clock.
+a jacket is at the bottom of a bench.
+a carrot is at the bottom of a bench.
+a keyboard is at the bottom of a bench.
+a soap is at the bottom of a bench.
+a camera is at the bottom of a bench.
+a jar is at the bottom of a bench.
+a laddar is at the bottom of a bench.
+a dryer is at the bottom of a bench.
+a blanket is at the bottom of a bench.

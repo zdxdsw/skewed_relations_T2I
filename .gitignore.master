@@ -1,5 +1,15 @@
 data/sheets_icons
 data/flickr30k
+data/nocaps/*.txt
+data/vl_models_are_bows
+data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem.json
+data/aggregated/whatsup_vlm_b_fb.json
+data/aggregated/whatsup_vlm_b_fb_autofill.json
+data/aggregated/whatsup_vlm_b_lr_autofill.json
+data/aggregated/whatsup_vlm_ab.json
+data/aggregated/vgr_nocaps_fb_both_complete.json
+data/aggregated/vgr_nocaps_tb_both_complete.json
+
 notebooks
 scripts/formalism/metrics_naive
 scripts/formalism/metrics_transpose_R2

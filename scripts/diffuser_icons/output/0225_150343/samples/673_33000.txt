@@ -1,0 +1,20 @@
+a rock is on top of a hoodie.
+a hoodie is at the bottom of a rock.
+a rock is on top of a wall.
+a wall is at the bottom of a rock.
+a rock is on top of a man.
+a man is at the bottom of a rock.
+a rock is on top of a squirrel.
+a squirrel is at the bottom of a rock.
+a rock is on top of a marker.
+a marker is at the bottom of a rock.
+a rock is on top of a pole.
+a rock is on top of a tie.
+a tie is at the bottom of a rock.
+a rock is on top of a card.
+a card is at the bottom of a rock.
+a rock is on top of an apple.
+an apple is at the bottom of a rock.
+a pie is on top of a soda.
+a soda is at the bottom of a pie.
+a pie is on top of a backpack.

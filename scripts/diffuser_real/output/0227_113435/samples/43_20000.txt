@@ -1,0 +1,20 @@
+the man is on the motorcycle
+the blanket is on the bed
+the window is above the bed
+the vegetables is on the counter
+the laptop is under the cat
+the laptop is below the cat
+the cat is on the laptop
+the cat is above the laptop
+the motorcycle is under the dog
+the motorcycle is below the dog
+the dog is on the motorcycle
+the woman is on the horse
+the dog is on the couch
+the laptop is on the sofa
+the sink is above the toilet
+the toilet is below the sink
+the box is on the table
+the desk is on top of the floor
+the roof is above the bus
+the dog is on top of the grass

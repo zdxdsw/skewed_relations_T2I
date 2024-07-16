@@ -1,0 +1,20 @@
+a vase is on top of a compass.
+a compass is at the bottom of a vase.
+a vase is on top of a violin.
+a violin is at the bottom of a vase.
+a vase is on top of a globe.
+a globe is at the bottom of a vase.
+a vase is on top of a body.
+a body is at the bottom of a vase.
+a piano is on top of a keyboard.
+a keyboard is at the bottom of a piano.
+a piano is on top of a soap.
+a soap is at the bottom of a piano.
+a piano is on top of a camera.
+a camera is at the bottom of a piano.
+a piano is on top of a jar.
+a jar is at the bottom of a piano.
+a piano is on top of a laddar.
+a laddar is at the bottom of a piano.
+a piano is on top of a dryer.
+a dryer is at the bottom of a piano.

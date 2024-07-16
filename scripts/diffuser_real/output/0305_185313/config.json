@@ -1,0 +1,55 @@
+{
+  "annotations": "../../data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json",
+  "block_out_channels": [
+    512,
+    512,
+    1024
+  ],
+  "ckpt_dir": "/data/yingshac/clevr_control/scripts/diffuser_real/output",
+  "conv_in_kernel": 3,
+  "conv_out_kernel": 3,
+  "cross_attention_dim": 128,
+  "dataset_class": "real_dataset",
+  "date": "0305_185313",
+  "down_block_types": [
+    "DownBlock2D",
+    "CrossAttnDownBlock2D",
+    "CrossAttnDownBlock2D"
+  ],
+  "dual_cross_attention": false,
+  "encoder_hid_dim": 512,
+  "encoder_hid_dim_type": "text_proj",
+  "eval_batch_size": 20,
+  "experiment": "real_conditional",
+  "gradient_accumulation_steps": 1,
+  "image_size": [
+    32,
+    64
+  ],
+  "imdir": "/data/yingshac/clevr_control/data/",
+  "layers_per_block": 2,
+  "learning_rate": 0.0005,
+  "load_from_dir": "0305_113949",
+  "lr_warmup_steps": 0,
+  "mixed_precision": "fp16",
+  "noise_schedule": "squaredcos_cap_v2",
+  "num_epochs": 3000,
+  "num_train_timesteps": 100,
+  "only_cross_attention": false,
+  "output_dir": "output",
+  "patch_size": 2,
+  "save_image_steps": 3000,
+  "save_model_epochs": 200,
+  "subsample_method": "splitW",
+  "t5_name": "t5-small",
+  "train_batch_size": 4,
+  "trainable_parameters": [
+    "attentions",
+    "encoder_hid_proj"
+  ],
+  "up_block_types": [
+    "CrossAttnUpBlock2D",
+    "CrossAttnUpBlock2D",
+    "UpBlock2D"
+  ]
+}

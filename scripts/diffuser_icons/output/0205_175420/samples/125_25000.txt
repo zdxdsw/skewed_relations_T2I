@@ -1,0 +1,20 @@
+a tie is at the bottom of a kite.
+a card is at the bottom of a kite.
+an apple is at the bottom of a kite.
+a book is at the bottom of a kite.
+a waffle is at the bottom of a kite.
+a skirt is at the bottom of a kite.
+a woman is on top of a soda.
+a soda is at the bottom of a woman.
+a woman is on top of a backpack.
+a backpack is at the bottom of a woman.
+a woman is on top of a vase.
+a vase is at the bottom of a woman.
+a woman is on top of a piano.
+a piano is at the bottom of a woman.
+a woman is on top of a bench.
+a bench is at the bottom of a woman.
+a woman is on top of a rock.
+a rock is at the bottom of a woman.
+a woman is on top of a pie.
+a pie is at the bottom of a woman.

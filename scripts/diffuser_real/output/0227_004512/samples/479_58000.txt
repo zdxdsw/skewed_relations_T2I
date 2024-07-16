@@ -1,0 +1,20 @@
+the men is in front of the wall
+the wall is behind the men
+the table is in front of the men
+the man is in front of the wall
+the wall is behind the man
+the building is behind the tower
+the tower is in front of the building
+the bench is in front of the fence
+the fence is behind the bench
+the wall is behind the bench
+the bench is in front of the wall
+the fence is behind the giraffe
+the giraffe is in front of the fence
+the mirror is in front of the sink
+the sink is behind the mirror
+the curtains is behind the computer
+the computer is in front of the curtains
+the sign is in front of the building
+the building is behind the sign
+the woman is in front of the man
