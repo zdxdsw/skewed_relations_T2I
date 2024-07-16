@@ -1,0 +1,20 @@
+a blouse is at the bottom of a vase.
+an eraser is at the bottom of a vase.
+a folder is at the bottom of a vase.
+a cake is at the bottom of a vase.
+a belt is at the bottom of a vase.
+a sandwich is at the bottom of a vase.
+a swan is at the bottom of a vase.
+a stool is at the bottom of a vase.
+a horse is at the bottom of a vase.
+a piano is on top of a soda.
+a piano is on top of a backpack.
+a piano is on top of a vase.
+a vase is at the bottom of a piano.
+a piano is on top of a bench.
+a bench is at the bottom of a piano.
+a piano is on top of a rock.
+a rock is at the bottom of a piano.
+a piano is on top of a pie.
+a pie is at the bottom of a piano.
+a piano is on top of a sheep.

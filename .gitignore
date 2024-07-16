@@ -5,11 +5,11 @@ venv/
 tmp/
 scripts/controlled_probing/ckpts/
 scripts/probing/ckpts/
-scripts/diffuser_colored_sq/output/
-scripts/diffuser_icons/output/
-scripts/diffuser_real/output/
-scripts/diffuser_icons/output_rbt/
-scripts/diffuser_real/output_rbt/
+
+scripts/diffuser_icons/output/*/infr/
+scripts/diffuser_real/output/*/infr/
+scripts/diffuser_icons/output_withvae/*/infr/
+scripts/diffuser_real/output_withvae/*/infr/
 
 events.out*
 .nfs*

@@ -1,0 +1,20 @@
+a saucer is on top of a car.
+a car is at the bottom of a saucer.
+a saucer is on top of a coat.
+a coat is at the bottom of a saucer.
+a saucer is on top of a cloak.
+a cloak is at the bottom of a saucer.
+a saucer is on top of a bag.
+a bag is at the bottom of a saucer.
+a saucer is on top of a bouquet.
+a bouquet is at the bottom of a saucer.
+a soda is at the bottom of a dumpling.
+a backpack is at the bottom of a dumpling.
+a vase is at the bottom of a dumpling.
+a piano is at the bottom of a dumpling.
+a bench is at the bottom of a dumpling.
+a rock is at the bottom of a dumpling.
+a pie is at the bottom of a dumpling.
+a sheep is at the bottom of a dumpling.
+a bowl is at the bottom of a dumpling.
+a saucer is at the bottom of a dumpling.

@@ -1,0 +1,20 @@
+a pen is at the bottom of a soda.
+a helicopter is at the bottom of a soda.
+a calender is at the bottom of a soda.
+a car is at the bottom of a soda.
+a coat is at the bottom of a soda.
+a cloak is at the bottom of a soda.
+a bag is at the bottom of a soda.
+a bouquet is at the bottom of a soda.
+a backpack is on top of a soda.
+a soda is at the bottom of a backpack.
+a backpack is on top of a vase.
+a vase is at the bottom of a backpack.
+a backpack is on top of a piano.
+a piano is at the bottom of a backpack.
+a backpack is on top of a bench.
+a bench is at the bottom of a backpack.
+a backpack is on top of a rock.
+a rock is at the bottom of a backpack.
+a backpack is on top of a pie.
+a pie is at the bottom of a backpack.

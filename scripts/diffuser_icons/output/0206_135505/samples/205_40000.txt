@@ -1,0 +1,20 @@
+a pole is at the bottom of a laddar.
+a laddar is on top of a tie.
+a tie is at the bottom of a laddar.
+a laddar is on top of a card.
+a card is at the bottom of a laddar.
+a laddar is on top of an apple.
+an apple is at the bottom of a laddar.
+a laddar is on top of a book.
+a book is at the bottom of a laddar.
+a laddar is on top of a waffle.
+a waffle is at the bottom of a laddar.
+a laddar is on top of a skirt.
+a skirt is at the bottom of a laddar.
+a soda is at the bottom of a dryer.
+a backpack is at the bottom of a dryer.
+a vase is at the bottom of a dryer.
+a piano is at the bottom of a dryer.
+a bench is at the bottom of a dryer.
+a rock is at the bottom of a dryer.
+a pie is at the bottom of a dryer.

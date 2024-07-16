@@ -1,0 +1,20 @@
+a jacket is on top of a saddle.
+a saddle is at the bottom of a jacket.
+a jacket is on top of a vest.
+a vest is at the bottom of a jacket.
+a jacket is on top of a plant.
+a plant is at the bottom of a jacket.
+a jacket is on top of a compass.
+a compass is at the bottom of a jacket.
+a jacket is on top of a violin.
+a violin is at the bottom of a jacket.
+a jacket is on top of a globe.
+a globe is at the bottom of a jacket.
+a jacket is on top of a body.
+a body is at the bottom of a jacket.
+a soda is at the bottom of a carrot.
+a backpack is at the bottom of a carrot.
+a vase is at the bottom of a carrot.
+a piano is at the bottom of a carrot.
+a bench is at the bottom of a carrot.
+a rock is at the bottom of a carrot.

@@ -1,0 +1,20 @@
+a rock is on top of a cup.
+a cup is at the bottom of a rock.
+a rock is on top of a rabbit.
+a rabbit is at the bottom of a rock.
+a pie is on top of a cupcake.
+a cupcake is at the bottom of a pie.
+a pie is on top of a ruler.
+a ruler is at the bottom of a pie.
+a pie is on top of a ship.
+a ship is at the bottom of a pie.
+a pie is on top of a kite.
+a kite is at the bottom of a pie.
+a pie is on top of a woman.
+a woman is at the bottom of a pie.
+a pie is on top of a calculator.
+a calculator is at the bottom of a pie.
+a pie is on top of a clock.
+a clock is at the bottom of a pie.
+a pie is on top of a jacket.
+a jacket is at the bottom of a pie.

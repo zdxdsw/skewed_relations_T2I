@@ -1,0 +1,20 @@
+a cupcake is on top of a ruler.
+a cupcake is on top of a ship.
+a cupcake is on top of a kite.
+a cupcake is on top of a woman.
+a cupcake is on top of a calculator.
+a cupcake is on top of a clock.
+a ruler is on top of a soda.
+a soda is at the bottom of a ruler.
+a ruler is on top of a backpack.
+a backpack is at the bottom of a ruler.
+a ruler is on top of a vase.
+a vase is at the bottom of a ruler.
+a ruler is on top of a piano.
+a piano is at the bottom of a ruler.
+a ruler is on top of a bench.
+a bench is at the bottom of a ruler.
+a ruler is on top of a rock.
+a rock is at the bottom of a ruler.
+a ruler is on top of a pie.
+a pie is at the bottom of a ruler.

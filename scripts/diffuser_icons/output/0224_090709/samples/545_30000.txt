@@ -1,0 +1,20 @@
+a dryer is on top of a dumpling.
+a dumpling is at the bottom of a dryer.
+a dryer is on top of a screen.
+a screen is at the bottom of a dryer.
+a dryer is on top of a sweater.
+a sweater is at the bottom of a dryer.
+a dryer is on top of a cupcake.
+a cupcake is at the bottom of a dryer.
+a dryer is on top of a ruler.
+a ruler is at the bottom of a dryer.
+a blanket is on top of a soda.
+a soda is at the bottom of a blanket.
+a blanket is on top of a backpack.
+a backpack is at the bottom of a blanket.
+a blanket is on top of a vase.
+a vase is at the bottom of a blanket.
+a blanket is on top of a piano.
+a piano is at the bottom of a blanket.
+a blanket is on top of a bench.
+a bench is at the bottom of a blanket.

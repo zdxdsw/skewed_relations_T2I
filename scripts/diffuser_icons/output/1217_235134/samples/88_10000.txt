@@ -1,0 +1,20 @@
+a bench is on top of a jar.
+a jar is at the bottom of a bench.
+a bench is on top of a laddar.
+a laddar is at the bottom of a bench.
+a bench is on top of a dryer.
+a dryer is at the bottom of a bench.
+a bench is on top of a blanket.
+a blanket is at the bottom of a bench.
+a bench is on top of a burger.
+a burger is at the bottom of a bench.
+a wallet is at the bottom of a bench.
+a binder is at the bottom of a bench.
+an eggplant is at the bottom of a bench.
+a blender is at the bottom of a bench.
+a can is at the bottom of a bench.
+an apron is at the bottom of a bench.
+a pencil is at the bottom of a bench.
+a cup is at the bottom of a bench.
+a rabbit is at the bottom of a bench.
+a toy is at the bottom of a bench.

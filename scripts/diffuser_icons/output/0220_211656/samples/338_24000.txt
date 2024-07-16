@@ -1,0 +1,20 @@
+an eggplant is at the bottom of a screen.
+a blender is at the bottom of a screen.
+a can is at the bottom of a screen.
+an apron is at the bottom of a screen.
+a pencil is at the bottom of a screen.
+a cup is at the bottom of a screen.
+a rabbit is at the bottom of a screen.
+a toy is at the bottom of a screen.
+a sweater is on top of a soda.
+a soda is at the bottom of a sweater.
+a sweater is on top of a backpack.
+a backpack is at the bottom of a sweater.
+a sweater is on top of a vase.
+a vase is at the bottom of a sweater.
+a sweater is on top of a piano.
+a piano is at the bottom of a sweater.
+a sweater is on top of a bench.
+a bench is at the bottom of a sweater.
+a sweater is on top of a rock.
+a rock is at the bottom of a sweater.

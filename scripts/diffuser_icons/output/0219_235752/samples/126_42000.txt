@@ -1,0 +1,20 @@
+a screen is on top of a phone.
+a phone is at the bottom of a screen.
+a screen is on top of a tote.
+a tote is at the bottom of a screen.
+a screen is on top of a hoodie.
+a hoodie is at the bottom of a screen.
+a screen is on top of a wall.
+a wall is at the bottom of a screen.
+a sweater is on top of a soap.
+a soap is at the bottom of a sweater.
+a sweater is on top of a camera.
+a camera is at the bottom of a sweater.
+a sweater is on top of a jar.
+a jar is at the bottom of a sweater.
+a sweater is on top of a laddar.
+a laddar is at the bottom of a sweater.
+a sweater is on top of a dryer.
+a dryer is at the bottom of a sweater.
+a sweater is on top of a blanket.
+a blanket is at the bottom of a sweater.

@@ -1,0 +1,20 @@
+the boy is behind the sheep
+the sheep is in front of the boy
+the house is behind the boy
+the zebras is in front of the trees
+the trees is behind the zebras
+the fence is in front of the bench
+the bench is behind the fence
+the crowd is in front of the building
+the building is behind the crowd
+the trees is behind the bench
+the bench is in front of the trees
+the bushes is in front of the building
+the building is behind the bushes
+the bench is behind the man
+the man is in front of the bench
+the wall is behind the desk
+the desk is in front of the wall
+the woman is behind the person
+the person is in front of the woman
+the woman is in front of the door

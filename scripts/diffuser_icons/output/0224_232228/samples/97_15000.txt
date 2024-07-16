@@ -1,0 +1,20 @@
+a rock is on top of a binder.
+a binder is at the bottom of a rock.
+a rock is on top of an eggplant.
+an eggplant is at the bottom of a rock.
+a rock is on top of a blender.
+a blender is at the bottom of a rock.
+a rock is on top of a can.
+a can is at the bottom of a rock.
+a pie is on top of a soda.
+a soda is at the bottom of a pie.
+a pie is on top of a backpack.
+a backpack is at the bottom of a pie.
+a pie is on top of a vase.
+a vase is at the bottom of a pie.
+a pie is on top of a piano.
+a piano is at the bottom of a pie.
+a pie is on top of a bench.
+a bench is at the bottom of a pie.
+a pie is on top of a rock.
+a rock is at the bottom of a pie.

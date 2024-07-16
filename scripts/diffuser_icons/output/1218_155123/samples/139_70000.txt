@@ -1,0 +1,20 @@
+a binder is on top of a hoodie.
+a hoodie is at the bottom of a binder.
+a binder is on top of a wall.
+a wall is at the bottom of a binder.
+a binder is on top of a man.
+a man is at the bottom of a binder.
+a binder is on top of a squirrel.
+a squirrel is at the bottom of a binder.
+a binder is on top of a marker.
+a marker is at the bottom of a binder.
+a binder is on top of a pole.
+a pole is at the bottom of a binder.
+a binder is on top of a tie.
+a tie is at the bottom of a binder.
+a binder is on top of a card.
+a card is at the bottom of a binder.
+an eggplant is on top of a blender.
+a blender is at the bottom of an eggplant.
+an eggplant is on top of a can.
+a can is at the bottom of an eggplant.

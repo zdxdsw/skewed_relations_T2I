@@ -1,0 +1,20 @@
+a fence is at the bottom of a saucer.
+a wheel is at the bottom of a saucer.
+a bat is at the bottom of a saucer.
+a saddle is at the bottom of a saucer.
+a vest is at the bottom of a saucer.
+a plant is at the bottom of a saucer.
+a compass is at the bottom of a saucer.
+a violin is at the bottom of a saucer.
+a globe is at the bottom of a saucer.
+a body is at the bottom of a saucer.
+a dumpling is on top of a soda.
+a dumpling is on top of a backpack.
+a dumpling is on top of a vase.
+a dumpling is on top of a piano.
+a dumpling is on top of a bench.
+a bench is at the bottom of a dumpling.
+a dumpling is on top of a rock.
+a rock is at the bottom of a dumpling.
+a dumpling is on top of a pie.
+a pie is at the bottom of a dumpling.

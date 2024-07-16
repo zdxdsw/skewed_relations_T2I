@@ -1,0 +1,20 @@
+a ship is on top of a binder.
+a binder is at the bottom of a ship.
+a ship is on top of an eggplant.
+an eggplant is at the bottom of a ship.
+a ship is on top of a blender.
+a blender is at the bottom of a ship.
+a ship is on top of a can.
+a can is at the bottom of a ship.
+a ship is on top of an apron.
+an apron is at the bottom of a ship.
+a pencil is at the bottom of a ship.
+a cup is at the bottom of a ship.
+a rabbit is at the bottom of a ship.
+a toy is at the bottom of a ship.
+a person is at the bottom of a ship.
+a blouse is at the bottom of a ship.
+an eraser is at the bottom of a ship.
+a folder is at the bottom of a ship.
+a cake is at the bottom of a ship.
+a belt is at the bottom of a ship.

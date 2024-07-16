@@ -1,0 +1,20 @@
+a folder is on top of a binder.
+a binder is at the bottom of a folder.
+a folder is on top of an eggplant.
+an eggplant is at the bottom of a folder.
+a folder is on top of a blender.
+a blender is at the bottom of a folder.
+a folder is on top of a can.
+a can is at the bottom of a folder.
+a folder is on top of an apron.
+an apron is at the bottom of a folder.
+a folder is on top of a pencil.
+a pencil is at the bottom of a folder.
+a folder is on top of a cup.
+a cup is at the bottom of a folder.
+a folder is on top of a rabbit.
+a rabbit is at the bottom of a folder.
+a folder is on top of a toy.
+a toy is at the bottom of a folder.
+a folder is on top of a person.
+a person is at the bottom of a folder.

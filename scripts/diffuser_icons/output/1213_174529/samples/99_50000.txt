@@ -1,0 +1,20 @@
+a belt is on top of a dumbbell.
+a dumbbell is at the bottom of a belt.
+a belt is on top of a phone.
+a phone is at the bottom of a belt.
+a belt is on top of a tote.
+a tote is at the bottom of a belt.
+a belt is on top of a hoodie.
+a hoodie is at the bottom of a belt.
+a belt is on top of a wall.
+a wall is at the bottom of a belt.
+a belt is on top of a man.
+a man is at the bottom of a belt.
+a belt is on top of a squirrel.
+a squirrel is at the bottom of a belt.
+a belt is on top of a marker.
+a marker is at the bottom of a belt.
+a belt is on top of a pole.
+a pole is at the bottom of a belt.
+a belt is on top of a tie.
+a tie is at the bottom of a belt.

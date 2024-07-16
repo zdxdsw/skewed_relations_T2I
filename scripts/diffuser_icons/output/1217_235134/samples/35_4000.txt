@@ -1,0 +1,20 @@
+a cake is at the bottom of a backpack.
+a belt is at the bottom of a backpack.
+a sandwich is at the bottom of a backpack.
+a swan is at the bottom of a backpack.
+a stool is at the bottom of a backpack.
+a horse is at the bottom of a backpack.
+a cabinet is at the bottom of a backpack.
+a shoe is at the bottom of a backpack.
+a pen is at the bottom of a backpack.
+a helicopter is at the bottom of a backpack.
+a calender is at the bottom of a backpack.
+a car is at the bottom of a backpack.
+a coat is at the bottom of a backpack.
+a cloak is at the bottom of a backpack.
+a bag is at the bottom of a backpack.
+a bouquet is at the bottom of a backpack.
+a vase is on top of a soda.
+a soda is at the bottom of a vase.
+a vase is on top of a backpack.
+a backpack is at the bottom of a vase.

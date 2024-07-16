@@ -1,0 +1,20 @@
+a man is at the bottom of a vase.
+a squirrel is at the bottom of a vase.
+a marker is at the bottom of a vase.
+a pole is at the bottom of a vase.
+a tie is at the bottom of a vase.
+a card is at the bottom of a vase.
+an apple is at the bottom of a vase.
+a book is at the bottom of a vase.
+a waffle is at the bottom of a vase.
+a skirt is at the bottom of a vase.
+a piano is on top of a soda.
+a soda is at the bottom of a piano.
+a piano is on top of a backpack.
+a backpack is at the bottom of a piano.
+a piano is on top of a vase.
+a vase is at the bottom of a piano.
+a piano is on top of a bench.
+a bench is at the bottom of a piano.
+a piano is on top of a rock.
+a rock is at the bottom of a piano.

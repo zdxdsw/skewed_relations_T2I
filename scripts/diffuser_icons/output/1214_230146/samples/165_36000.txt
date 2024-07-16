@@ -1,0 +1,20 @@
+a camera is on top of a cabinet.
+a camera is on top of a shoe.
+a camera is on top of a pen.
+a camera is on top of a helicopter.
+a camera is on top of a calender.
+a camera is on top of a car.
+a camera is on top of a coat.
+a camera is on top of a cloak.
+a camera is on top of a bag.
+a camera is on top of a bouquet.
+a soda is at the bottom of a jar.
+a backpack is at the bottom of a jar.
+a vase is at the bottom of a jar.
+a piano is at the bottom of a jar.
+a bench is at the bottom of a jar.
+a rock is at the bottom of a jar.
+a pie is at the bottom of a jar.
+a sheep is at the bottom of a jar.
+a bowl is at the bottom of a jar.
+a saucer is at the bottom of a jar.

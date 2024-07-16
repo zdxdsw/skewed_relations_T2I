@@ -1,0 +1,20 @@
+a rock is on top of a globe.
+a globe is at the bottom of a rock.
+a rock is on top of a body.
+a body is at the bottom of a rock.
+a soda is at the bottom of a pie.
+a backpack is at the bottom of a pie.
+a vase is at the bottom of a pie.
+a piano is at the bottom of a pie.
+a bench is at the bottom of a pie.
+a rock is at the bottom of a pie.
+a sheep is at the bottom of a pie.
+a bowl is at the bottom of a pie.
+a saucer is at the bottom of a pie.
+a dumpling is at the bottom of a pie.
+a screen is at the bottom of a pie.
+a sweater is at the bottom of a pie.
+a cupcake is at the bottom of a pie.
+a ruler is at the bottom of a pie.
+a ship is at the bottom of a pie.
+a kite is at the bottom of a pie.

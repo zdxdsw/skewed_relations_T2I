@@ -1,0 +1,20 @@
+a vase is on top of an apron.
+an apron is at the bottom of a vase.
+a vase is on top of a pencil.
+a pencil is at the bottom of a vase.
+a vase is on top of a cup.
+a cup is at the bottom of a vase.
+a vase is on top of a rabbit.
+a rabbit is at the bottom of a vase.
+a vase is on top of a toy.
+a toy is at the bottom of a vase.
+a vase is on top of a person.
+a person is at the bottom of a vase.
+a vase is on top of a blouse.
+a blouse is at the bottom of a vase.
+a vase is on top of an eraser.
+an eraser is at the bottom of a vase.
+a vase is on top of a folder.
+a folder is at the bottom of a vase.
+a vase is on top of a cake.
+a cake is at the bottom of a vase.

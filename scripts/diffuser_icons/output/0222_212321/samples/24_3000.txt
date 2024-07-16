@@ -1,0 +1,20 @@
+a soda is on top of a stool.
+a stool is at the bottom of a soda.
+a soda is on top of a horse.
+a horse is at the bottom of a soda.
+a soda is on top of a cabinet.
+a cabinet is at the bottom of a soda.
+a soda is on top of a shoe.
+a shoe is at the bottom of a soda.
+a soda is on top of a pen.
+a pen is at the bottom of a soda.
+a soda is on top of a helicopter.
+a helicopter is at the bottom of a soda.
+a soda is on top of a calender.
+a calender is at the bottom of a soda.
+a soda is on top of a car.
+a car is at the bottom of a soda.
+a soda is on top of a coat.
+a coat is at the bottom of a soda.
+a soda is on top of a cloak.
+a cloak is at the bottom of a soda.

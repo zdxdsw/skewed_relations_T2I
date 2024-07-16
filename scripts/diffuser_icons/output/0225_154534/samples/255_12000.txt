@@ -1,0 +1,20 @@
+a vase is on top of a pen.
+a pen is at the bottom of a vase.
+a vase is on top of a helicopter.
+a helicopter is at the bottom of a vase.
+a vase is on top of a cloak.
+a cloak is at the bottom of a vase.
+a vase is on top of a bag.
+a bag is at the bottom of a vase.
+a vase is on top of a bouquet.
+a bouquet is at the bottom of a vase.
+a vase is on top of a kettle.
+a kettle is at the bottom of a vase.
+a piano is on top of a soda.
+a soda is at the bottom of a piano.
+a piano is on top of a backpack.
+a backpack is at the bottom of a piano.
+a piano is on top of a vase.
+a vase is at the bottom of a piano.
+a piano is on top of a bench.
+a bench is at the bottom of a piano.

@@ -1,0 +1,20 @@
+a sandwich is on top of a dumpling.
+a dumpling is at the bottom of a sandwich.
+a sandwich is on top of a screen.
+a screen is at the bottom of a sandwich.
+a sandwich is on top of a sweater.
+a sweater is at the bottom of a sandwich.
+a sandwich is on top of a cupcake.
+a cupcake is at the bottom of a sandwich.
+a sandwich is on top of a ruler.
+a ruler is at the bottom of a sandwich.
+a sandwich is on top of a ship.
+a ship is at the bottom of a sandwich.
+a sandwich is on top of a kite.
+a kite is at the bottom of a sandwich.
+a sandwich is on top of a woman.
+a woman is at the bottom of a sandwich.
+a sandwich is on top of a calculator.
+a calculator is at the bottom of a sandwich.
+a sandwich is on top of a clock.
+a clock is at the bottom of a sandwich.

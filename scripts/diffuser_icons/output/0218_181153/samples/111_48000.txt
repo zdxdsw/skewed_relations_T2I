@@ -1,0 +1,20 @@
+a screen is on top of a marker.
+a marker is at the bottom of a screen.
+a screen is on top of a pole.
+a pole is at the bottom of a screen.
+a screen is on top of a tie.
+a tie is at the bottom of a screen.
+a screen is on top of a card.
+a card is at the bottom of a screen.
+a screen is on top of an apple.
+an apple is at the bottom of a screen.
+a screen is on top of a book.
+a book is at the bottom of a screen.
+a screen is on top of a waffle.
+a waffle is at the bottom of a screen.
+a screen is on top of a skirt.
+a skirt is at the bottom of a screen.
+a sweater is on top of a laddar.
+a laddar is at the bottom of a sweater.
+a sweater is on top of a dryer.
+a dryer is at the bottom of a sweater.

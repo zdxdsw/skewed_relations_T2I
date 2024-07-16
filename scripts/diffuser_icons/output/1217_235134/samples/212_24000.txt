@@ -1,0 +1,20 @@
+a pen is at the bottom of a dumpling.
+a helicopter is at the bottom of a dumpling.
+a calender is at the bottom of a dumpling.
+a car is at the bottom of a dumpling.
+a coat is at the bottom of a dumpling.
+a cloak is at the bottom of a dumpling.
+a bag is at the bottom of a dumpling.
+a bouquet is at the bottom of a dumpling.
+a screen is on top of a soda.
+a soda is at the bottom of a screen.
+a screen is on top of a backpack.
+a backpack is at the bottom of a screen.
+a screen is on top of a vase.
+a vase is at the bottom of a screen.
+a screen is on top of a piano.
+a piano is at the bottom of a screen.
+a screen is on top of a bench.
+a bench is at the bottom of a screen.
+a screen is on top of a rock.
+a rock is at the bottom of a screen.

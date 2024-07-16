@@ -1,0 +1,20 @@
+a carrot is on top of a soda.
+a soda is at the bottom of a carrot.
+a carrot is on top of a backpack.
+a backpack is at the bottom of a carrot.
+a carrot is on top of a vase.
+a vase is at the bottom of a carrot.
+a carrot is on top of a piano.
+a piano is at the bottom of a carrot.
+a carrot is on top of a bench.
+a bench is at the bottom of a carrot.
+a carrot is on top of a rock.
+a rock is at the bottom of a carrot.
+a carrot is on top of a pie.
+a pie is at the bottom of a carrot.
+a carrot is on top of a sheep.
+a sheep is at the bottom of a carrot.
+a keyboard is on top of a soda.
+a soda is at the bottom of a keyboard.
+a keyboard is on top of a backpack.
+a backpack is at the bottom of a keyboard.

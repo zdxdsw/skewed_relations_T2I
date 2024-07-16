@@ -1,0 +1,20 @@
+a kite is at the bottom of a vase.
+a vase is on top of a woman.
+a woman is at the bottom of a vase.
+a vase is on top of a calculator.
+a calculator is at the bottom of a vase.
+a vase is on top of a clock.
+a clock is at the bottom of a vase.
+a soda is at the bottom of a piano.
+a backpack is at the bottom of a piano.
+a vase is at the bottom of a piano.
+a bench is at the bottom of a piano.
+a rock is at the bottom of a piano.
+a pie is at the bottom of a piano.
+a sheep is at the bottom of a piano.
+a bowl is at the bottom of a piano.
+a saucer is at the bottom of a piano.
+a piano is on top of a dumpling.
+a dumpling is at the bottom of a piano.
+a piano is on top of a screen.
+a screen is at the bottom of a piano.

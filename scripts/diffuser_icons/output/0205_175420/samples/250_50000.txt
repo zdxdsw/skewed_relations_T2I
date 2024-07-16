@@ -1,0 +1,20 @@
+a hoodie is at the bottom of a blender.
+a wall is at the bottom of a blender.
+a man is at the bottom of a blender.
+a squirrel is at the bottom of a blender.
+a marker is at the bottom of a blender.
+a pole is at the bottom of a blender.
+a tie is at the bottom of a blender.
+a card is at the bottom of a blender.
+an apple is at the bottom of a blender.
+a book is at the bottom of a blender.
+a waffle is at the bottom of a blender.
+a skirt is at the bottom of a blender.
+a can is on top of a soda.
+a soda is at the bottom of a can.
+a can is on top of a backpack.
+a backpack is at the bottom of a can.
+a can is on top of a vase.
+a vase is at the bottom of a can.
+a can is on top of a piano.
+a piano is at the bottom of a can.

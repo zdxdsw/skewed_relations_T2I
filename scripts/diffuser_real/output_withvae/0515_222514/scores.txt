@@ -1,0 +1,73 @@
+Epoch 199 test acc = 0.0720 (34/472)
+Epoch 399 test acc = 0.0530 (25/472)
+Epoch 599 test acc = 0.0487 (23/472)
+Epoch 799 test acc = 0.0466 (22/472)
+Epoch 999 test acc = 0.0381 (18/472)
+ 
+Epoch 1199 test acc = 0.0212 (10/472)
+Epoch 1399 test acc = 0.0318 (15/472)
+Epoch 1599 test acc = 0.0890 (42/472)
+Epoch 1799 test acc = 0.0805 (38/472)
+Epoch 1999 test acc = 0.0784 (37/472)
+ 
+Epoch 2199 test acc = 0.0297 (14/472)
+Epoch 2399 test acc = 0.0593 (28/472)
+Epoch 2599 test acc = 0.0508 (24/472)
+Epoch 2799 test acc = 0.0403 (19/472)
+Epoch 2999 test acc = 0.0530 (25/472)
+ 
+Epoch 3199 test acc = 0.0445 (21/472)
+Epoch 3399 test acc = 0.0466 (22/472)
+Epoch 3599 test acc = 0.0381 (18/472)
+Epoch 3799 test acc = 0.0360 (17/472)
+Epoch 3999 test acc = 0.0297 (14/472)
+ 
+Epoch 4199 test acc = 0.0318 (15/472)
+Epoch 4399 test acc = 0.0466 (22/472)
+Epoch 4599 test acc = 0.0275 (13/472)
+Epoch 4799 test acc = 0.0254 (12/472)
+Epoch 4999 test acc = 0.0233 (11/472)
+ 
+Epoch 5199 test acc = 0.0297 (7/236)
+Epoch 5399 test acc = 0.0254 (6/236)
+Epoch 5599 test acc = 0.0254 (6/236)
+Epoch 5799 test acc = 0.0254 (6/236)
+Epoch 5999 test acc = 0.0169 (4/236)
+ 
+Epoch 199 train acc = 0.5136 (189/368)
+Epoch 399 train acc = 0.6114 (225/368)
+Epoch 599 train acc = 0.7500 (276/368)
+Epoch 799 train acc = 0.7391 (272/368)
+Epoch 999 train acc = 0.7962 (293/368)
+ 
+Epoch 1199 train acc = 0.8125 (299/368)
+Epoch 1399 train acc = 0.8614 (317/368)
+Epoch 1599 train acc = 0.9158 (337/368)
+Epoch 1799 train acc = 0.8777 (323/368)
+Epoch 1999 train acc = 0.9837 (362/368)
+ 
+Epoch 2199 train acc = 0.9429 (347/368)
+Epoch 2399 train acc = 0.9701 (357/368)
+Epoch 2599 train acc = 0.9538 (351/368)
+Epoch 2799 train acc = 0.9810 (361/368)
+Epoch 2999 train acc = 0.9647 (355/368)
+ 
+Epoch 3199 train acc = 0.9755 (359/368)
+Epoch 3399 train acc = 0.9783 (360/368)
+Epoch 3599 train acc = 0.9864 (363/368)
+Epoch 3799 train acc = 0.9864 (363/368)
+Epoch 3999 train acc = 0.9783 (360/368)
+ 
+Epoch 4199 train acc = 0.9810 (361/368)
+Epoch 4399 train acc = 0.9864 (363/368)
+Epoch 4599 train acc = 0.9565 (352/368)
+Epoch 4799 train acc = 0.9837 (362/368)
+Epoch 4999 train acc = 0.9864 (363/368)
+ 
+Epoch 5199 train acc = 0.9891 (182/184)
+Epoch 5399 train acc = 0.9891 (182/184)
+Epoch 5599 train acc = 0.9891 (182/184)
+Epoch 5799 train acc = 0.9783 (180/184)
+Epoch 5999 train acc = 0.9837 (181/184)
+ 
+0515_222514 finish eval

@@ -1,0 +1,20 @@
+an apron is on top of a squirrel.
+a squirrel is at the bottom of an apron.
+an apron is on top of a marker.
+a marker is at the bottom of an apron.
+an apron is on top of a pole.
+a pole is at the bottom of an apron.
+an apron is on top of a tie.
+a tie is at the bottom of an apron.
+a pencil is on top of a cup.
+a cup is at the bottom of a pencil.
+a pencil is on top of a rabbit.
+a rabbit is at the bottom of a pencil.
+a pencil is on top of a toy.
+a toy is at the bottom of a pencil.
+a pencil is on top of a person.
+a person is at the bottom of a pencil.
+a pencil is on top of a blouse.
+a blouse is at the bottom of a pencil.
+a pencil is on top of an eraser.
+an eraser is at the bottom of a pencil.

@@ -1,0 +1,20 @@
+a ship is on top of a rabbit.
+a rabbit is at the bottom of a ship.
+a ship is on top of a toy.
+a toy is at the bottom of a ship.
+a ship is on top of a person.
+a person is at the bottom of a ship.
+a ship is on top of a blouse.
+a blouse is at the bottom of a ship.
+a ship is on top of an eraser.
+an eraser is at the bottom of a ship.
+a ship is on top of a folder.
+a folder is at the bottom of a ship.
+a ship is on top of a cake.
+a cake is at the bottom of a ship.
+a ship is on top of a belt.
+a belt is at the bottom of a ship.
+a ship is on top of a sandwich.
+a sandwich is at the bottom of a ship.
+a ship is on top of a swan.
+a swan is at the bottom of a ship.

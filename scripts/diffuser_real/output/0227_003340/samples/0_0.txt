@@ -1,0 +1,20 @@
+the man is behind the building
+the building is in front of the man
+the truck is in front of the tree
+the tree is behind the truck
+the table is behind the cat
+the cat is in front of the table
+the tree is behind the bus
+the bus is in front of the tree
+the fence is behind the couple
+the couple is in front of the fence
+the animal is in front of the trees
+the trees is behind the animal
+the bus is in front of the trees
+the trees is behind the bus
+the bushes is in front of the building
+the building is behind the bushes
+the child is in front of the couch
+the couch is behind the child
+the person is behind the grill
+the grill is in front of the person

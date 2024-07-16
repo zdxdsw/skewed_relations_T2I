@@ -1,0 +1,20 @@
+a tote is on top of a keyboard.
+a keyboard is at the bottom of a tote.
+a tote is on top of a soap.
+a soap is at the bottom of a tote.
+a tote is on top of a camera.
+a camera is at the bottom of a tote.
+a tote is on top of a jar.
+a jar is at the bottom of a tote.
+a tote is on top of a laddar.
+a laddar is at the bottom of a tote.
+a tote is on top of a dryer.
+a dryer is at the bottom of a tote.
+a tote is on top of a blanket.
+a blanket is at the bottom of a tote.
+a tote is on top of a burger.
+a burger is at the bottom of a tote.
+a tote is on top of a wallet.
+a wallet is at the bottom of a tote.
+a tote is on top of a binder.
+a binder is at the bottom of a tote.

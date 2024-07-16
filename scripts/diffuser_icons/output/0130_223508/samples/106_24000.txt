@@ -1,0 +1,20 @@
+a bowl is on top of a belt.
+a belt is at the bottom of a bowl.
+a bowl is on top of a sandwich.
+a sandwich is at the bottom of a bowl.
+a bowl is on top of a swan.
+a swan is at the bottom of a bowl.
+a bowl is on top of a stool.
+a stool is at the bottom of a bowl.
+a bowl is on top of a horse.
+a horse is at the bottom of a bowl.
+a bowl is on top of a cabinet.
+a cabinet is at the bottom of a bowl.
+a saucer is on top of a soda.
+a soda is at the bottom of a saucer.
+a saucer is on top of a backpack.
+a backpack is at the bottom of a saucer.
+a saucer is on top of a vase.
+a vase is at the bottom of a saucer.
+a saucer is on top of a piano.
+a piano is at the bottom of a saucer.

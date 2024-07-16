@@ -1,0 +1,20 @@
+a screen is on top of a cup.
+a cup is at the bottom of a screen.
+a screen is on top of a rabbit.
+a rabbit is at the bottom of a screen.
+a screen is on top of a toy.
+a toy is at the bottom of a screen.
+a screen is on top of a person.
+a person is at the bottom of a screen.
+a screen is on top of a blouse.
+a blouse is at the bottom of a screen.
+a screen is on top of an eraser.
+an eraser is at the bottom of a screen.
+a screen is on top of a folder.
+a folder is at the bottom of a screen.
+a screen is on top of a cake.
+a cake is at the bottom of a screen.
+a sweater is on top of a soda.
+a soda is at the bottom of a sweater.
+a sweater is on top of a backpack.
+a backpack is at the bottom of a sweater.
