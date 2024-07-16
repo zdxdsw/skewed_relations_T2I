@@ -1,0 +1,38 @@
+Epoch,"1213_173443
+num_objs=90","1217_211316 trainable_parameters = [""attentions"", ""encoder_hid_proj""] (self_attn + cross_attn)","1218_231817 only_cross_attn=True (CA+CA) trainable_parameters = [""attentions"", ""encoder_hid_proj""] (cross_attn + cross_attn)","1214_123539, 1214_143604, 0213_123701 
+num_objs=30","1218_160756 num_objs=30 trainable_parameters = [""attentions"", ""encoder_hid_proj""] (self_attn + cross_attn)",1214_152456 num_objs=60,"1217_234536 num_objs=60 trainable_parameters = [""attentions"", ""encoder_hid_proj""] (self_attn + cross_attn)","0203_155210
+num_objs=20","0206_080053, 0213_235533
+num_objs=40","0206_080131
+num_objs=50","0206_080222
+num_objs=70","0206_135505
+num_objs=80"
+19,2.61 tr acc = 3.31,,,0.68 tr acc = 1.67,2.58 tr acc = 3.57,2.06 tr acc = 2.53,,,1.36 tr acc = 3.42,2.27 tr acc = 4,1.5 tr acc = 1.97,2.03 tr acc = 2.98
+39,87.91 tr acc = 98.48,,,2.12 tr acc = 2.86,3.48 tr acc = 5.24,3.9 tr acc = 5.29,,,3.05 tr acc = 4.08,2.49 tr acc = 5.17,6.04 tr acc = 10,21.74 tr acc = 33.21
+59,94.64 tr acc = 99.97,,,3.71 tr acc = 5.24,3.86 tr acc = 4.52,13.5 tr acc = 26.90,,,4.45 tr acc = 10,4.81 tr acc = 7.5,74.2 tr acc = 89.5,84.39 tr acc = 94.49
+79,96.18 tr acc = 99.95,,,4.7 tr acc = 6.9,4.32 tr acc = 8.81,73.82 tr acc = 92.99,,,7.08 tr acc = 9.61,6.65 tr acc = 13.17,92.69 tr acc = 99.75,96.65 tr acc = 99.97
+99,97.58 tr acc = 100,,,4.32 tr acc = 10,5.23 tr acc = 9.76,91.39 tr acc = 99.89,,,8.81 tr acc = 16.18,23.84 tr acc = 53.92,93.52 tr acc = 99.12,80.4 tr acc = 90.06
+119,98.19 tr acc = 100,98.25 tr acc = 100,93.99,5.61 tr acc = 14.29,6.36 tr acc = 14.52,93.28 tr acc = 99.83,94.21 tr acc = 100,,6.99 tr acc = 15.39,62.16 tr acc = 94.58,96.18 tr acc = 100,96.36 tr acc = 100
+139,96.58 tr acc = 99.8,,,6.44 tr acc = 12.86,8.03 tr acc = 18.1,95.22 tr acc = 100,,,20.55 tr acc = 46.18,77.68 tr acc = 99.83,96.54 tr acc = 100,96.67 tr acc = 100
+159,63.74 tr acc = 75.08,97.99 tr acc = 100,95.1,5.23 tr acc = 11.9,9.47 tr acc = 22.62,92.21 tr acc = 99.43,95.45 tr acc = 100,,47.12 tr acc = 80.26,84.08 tr acc = 100,94.51 tr acc = 99.50,98.09 tr acc = 100
+179,97.69 tr acc = 99.85,,,5.61 tr acc = 11.9,9.92 tr acc = 22.14,96.35 tr acc = 100,,,57.03 tr acc = 81.32,74.46 tr acc = 95.5,97.14 tr acc = 100,98.33 tr acc = 100
+199,95.95 tr acc = 100,98.72 tr acc = 100,97.63,12.65 tr acc = 28.33,12.88 tr acc = 34.05,93.39 tr acc = 99.89,97.17 tr acc = 100,7.07,66.48 tr acc = 90.79,89.24 tr acc = 99.92,94.7 tr acc = 99.87,98.63 tr acc = 100
+219,97.96 tr acc = 100,,,11.06 tr acc = 31.43,16.82 tr acc = 33.57,96.39 tr acc = 100,,,67.16 tr acc = 92.89,91.16 tr acc = 100,96.47 tr acc = 100,98.78 tr acc = 100
+239,97.89 tr acc = 100,,,13.26 tr acc = 31.43,24.09 tr acc = 56.90,97.28 tr acc = 100,,,81.27 tr acc = 100,90.54 tr acc = 100,96.55 tr acc = 100,97.32 tr acc = 100
+259,59.96 tr acc = 66.99,,,20.68 tr acc = 51.43,32.31 tr acc = 76.19,96.14 tr acc = 99.89,,,83.18 tr acc = 100,90.08 tr acc = 100,93.76 tr acc = 98.99,98.45 tr acc = 100
+279,98.31 tr acc = 100,,,35.76 tr acc = 87.38,44.62 tr acc = 90.48,97.04 tr acc = 100,,,83.26 tr acc = 100,91.84 tr acc = 100,97.13 tr acc = 100,97.12 tr acc = 100
+299,97.97 tr acc = 100,,97.95 tr acc = 100,34.85 tr acc = 89.29,49.70 tr acc = 93.93,97.45 tr acc = 100,,8.79,85.89 tr acc = 100,92.68 tr acc = 100,97.95 tr acc = 100,97.85 tr acc = 100
+319,,,,42.27 tr acc = 95.48,45.45 tr acc = 83.57,,,,67.54 tr acc = 91.45,91.19 tr acc = 100,,
+339,,,,48.86 tr acc = 99.29,63.86 tr acc = 99.52,,,,85.72 tr acc = 100,92.08 tr acc = 100,,
+359,,,,49.92 tr acc = 99.76,68.86 tr acc = 100,,,,86.57 tr acc = 100,92.65 tr acc = 100,,
+379,,,,54.17 tr acc = 99.40,69.02 tr acc = 100,,,,86.57 tr acc = 100,92.89 tr acc = 100,,
+399,,,,59.09 tr acc = 99.88,71.67 tr acc = 99.52,,,17.59,87.12 tr acc = 100,92.38 tr acc = 100,,
+419,,,,61.14 tr acc = 100,,,,,87.92 tr acc = 100,,,
+439,,,,64.24 tr acc = 100,,,,,88.26 tr acc = 100,,,
+459,,,,65.83 tr acc = 100,,,,,88.56 tr acc = 100,,,
+479,,,,68.26 tr acc = 100,,,,,88.26 tr acc = 100,,,
+499,,,,65.91 tr acc = 100,,,,,88.05 tr acc = 100,,,
+519,,,,68.03 tr acc = 100,,,,,,,,
+539,,,,74.32 tr acc = 100,,,,,,,,
+559,,,,69.09 tr acc = 100,,,,,,,,
+579,,,,72.05 tr acc = 100,,,,,,,,
+599,,,,69.85 tr acc = 100,,,,,,,,
