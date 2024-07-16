@@ -1,5 +1,9 @@
 data/sheets_icons
 data/flickr30k
+data/nocapt/*.txt
+data/vl_models_are_bows
+data/aggregated/![whatsup_vlm_b_lr.json|whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json]
+
 notebooks
 scripts/formalism/metrics_naive
 scripts/formalism/metrics_transpose_R2

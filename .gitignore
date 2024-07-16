@@ -3,6 +3,7 @@ venv/
 #LLaVA/
 #whatsup_vlms/
 tmp/
+scripts/**/__pycache__
 scripts/controlled_probing/ckpts/
 scripts/probing/ckpts/
 
@@ -11,7 +12,6 @@ scripts/diffuser_real/output/*/infr/
 scripts/diffuser_icons/output_withvae/*/infr/
 scripts/diffuser_real/output_withvae/*/infr/
 
-events.out*
 .nfs*
 
 # ------------- Auto discovered large files -------------
