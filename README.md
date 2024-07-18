@@ -139,7 +139,7 @@ python eval.py --ckpt_handle <handle> --epochs_for_eval <epochs_for_eval> --outp
 
 `<epochs_for_eval>`: String seperated by spaces. E.g. "1999 3999 5999"
 
-`<output_folder>`: E.g. output or output_withvae
+`<output_folder>`: E.g. "output" or "output_withvae"
 
 # Latent Diffusion Experiments
 
@@ -158,14 +158,13 @@ wget https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/vae/di
 
 #### 2. Training configs
 
-For experiments on synthetic images:
 
-To reproduce results in our paper, copy configs from [skewed_relations_T2I/scripts/diffuser_icons/configs/vae_icons_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/vae_icons_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_icons/configs/vae_icons_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/vae_icons_twoobjs_ft_config.py)
+To reproduce results in our paper, copy configs from
+
+- Experiments on synthetic images: [skewed_relations_T2I/scripts/diffuser_icons/configs/vae_icons_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/vae_icons_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_icons/configs/vae_icons_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/vae_icons_twoobjs_ft_config.py)
 
 
-For experiments on natural images:
-
-To reproduce results in our paper, copy configs from [skewed_relations_T2I/scripts/diffuser_real/configs/vae_natural_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/vae_natural_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_real/configs/vae_natural_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/vae_natural_twoobjs_ft_config.py)
+- Experiments on natural images: [skewed_relations_T2I/scripts/diffuser_real/configs/vae_natural_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/vae_natural_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_real/configs/vae_natural_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/vae_natural_twoobjs_ft_config.py)
 
 #### 3. Training/Testing/Evaluation commands
 
