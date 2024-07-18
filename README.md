@@ -17,7 +17,7 @@ pip install --upgrade pip &&
 pip install -r requirements.txt
 ```
 
-Toubleshooting: If you're having problems installing torch or import errors, try installing the specific version.
+Toubleshooting: If you're having ImportError or imcompatibility issues, try installing the specific version.
 `pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118`. This requires cuda11.8. If your machine supports multiple cuda versions, you might want to do the following: `export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib`.
 
 
@@ -43,6 +43,8 @@ tpu_use_cluster: false
 tpu_use_sudo: false
 use_cpu: false
 ```
+
+<br>
 
 # Pixel Diffusion Experiments with Synthetic Images
 
@@ -78,6 +80,8 @@ By default, `tester.py` will run inference on both training and testing set. To 
 #### 4. Evaluation commands
 
 &#x2610; TODO
+
+<br>
 
 # Pixel Diffusion Experiments with Natural Images
 
@@ -141,6 +145,8 @@ python eval.py --ckpt_handle <handle> --epochs_for_eval <epochs_for_eval> --outp
 
 `<output_folder>`: E.g. "output" or "output_withvae"
 
+<br>
+
 # Latent Diffusion Experiments
 
 #### 1. Download pre-trained vae checkpoints from huggingface.
@@ -169,3 +175,22 @@ To reproduce results in our paper, copy configs from
 #### 3. Training/Testing/Evaluation commands
 
 Same as previous sections.
+
+<br>
+
+## Credits
+@huggingface [Diffusers](https://github.com/huggingface/diffusers/tree/main)
+
+@amitakamath [whatsup_vlms](https://github.com/amitakamath/whatsup_vlms)
+
+
+## Cite Us &#x1f64f;
+```
+@article{chang2024skews,
+  title={Skews in the Phenomenon Space Hinder Generalization in Text-to-Image Generation},
+  author={Chang, Yingshan and Zhang, Yasi and Fang, Zhiyuan and Wu, Yingnian and Bisk, Yonatan and Gao, Feng},
+  journal={arXiv preprint arXiv:2403.16394},
+  year={2024}
+}
+```
+

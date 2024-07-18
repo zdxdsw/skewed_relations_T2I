@@ -37,7 +37,7 @@ class ConditionalTrainingConfig:
     learning_rate = 5e-4
     lr_warmup_steps = 1000
     gradient_accumulation_steps = 1
-    train_batch_size = 4
+    train_batch_size = 4 # Per gpu batch size
     eval_batch_size = 20  # how many images to sample during evaluation
     num_train_timesteps = 100
     num_epochs = 6000
