@@ -4,10 +4,11 @@
 
 Modify `<largefiles_dir>` if you keep large files in a separate directory.
 
+<br>
 
-# Setup
+## Setup
 
-### Python Environment
+#### 1. Python Environment
 ```
 git clone git@github.com:zdxdsw/skewed_relations_T2I.git &&
 cd skewed_relations_T2I &&
@@ -21,7 +22,7 @@ Toubleshooting: If you're having ImportError or imcompatibility issues, try inst
 `pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118`. This requires cuda11.8. If your machine supports multiple cuda versions, you might want to do the following: `export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib`.
 
 
-### Accelerate config
+#### 2. Accelerate config
 `$ accelerate config` # This will automatically generate `~/.cache/huggingface/accelerate/default_config.yaml`.
 
 Example config:
@@ -46,7 +47,7 @@ use_cpu: false
 
 <br>
 
-# Pixel Diffusion Experiments with Synthetic Images
+## Pixel Diffusion Experiments with Synthetic Images
 
 #### 1. Training configs
 
@@ -83,7 +84,7 @@ By default, `tester.py` will run inference on both training and testing set. To 
 
 <br>
 
-# Pixel Diffusion Experiments with Natural Images
+## Pixel Diffusion Experiments with Natural Images
 
 #### 1. Download WhatsUp dataset
 Images are released by the [WhatsUp official repo](https://github.com/amitakamath/whatsup_vlms?tab=readme-ov-file#downloading-the-data). Download `controlled_clevr.tar.gz` from https://drive.google.com/drive/u/0/folders/164q6X9hrvP-QYpi3ioSnfMuyHpG5oRkZ.
@@ -147,7 +148,7 @@ python eval.py --ckpt_handle <handle> --epochs_for_eval <epochs_for_eval> --outp
 
 <br>
 
-# Latent Diffusion Experiments
+## Latent Diffusion Experiments
 
 #### 1. Download pre-trained vae checkpoints from huggingface.
 
