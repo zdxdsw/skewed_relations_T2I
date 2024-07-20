@@ -1,7 +1,7 @@
 from config import ConditionalTrainingConfig
 import torch, sys, os, random, pytz, json
 from dataset import *
-sys.path.append("../diffuser_colored_sq")
+sys.path.append("../diffuser_common")
 from torch.utils.data import DataLoader
 from accelerate import Accelerator, DistributedDataParallelKwargs
 from tqdm.auto import tqdm
@@ -16,7 +16,6 @@ date = datetime.now(timezone).strftime("%m%d_%H%M%S")
 
 config = ConditionalTrainingConfig()
 config.date = date
-
 
 ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
 accelerator = Accelerator(

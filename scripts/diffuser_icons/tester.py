@@ -1,5 +1,5 @@
 import sys, os, warnings
-sys.path.append("../diffuser_colored_sq/")
+sys.path.append("../diffuser_common/")
 from training_utils import *
 from config import ConditionalTrainingConfig, default_ConditionalTrainingConfig
 import torch, random, pytz, json, argparse

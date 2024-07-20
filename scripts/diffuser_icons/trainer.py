@@ -1,6 +1,6 @@
 from config import ConditionalTrainingConfig
 import torch, sys, os, random, pytz, json, argparse, time
-sys.path.append("../diffuser_colored_sq/")
+sys.path.append("../diffuser_common/")
 from dataset import *
 from torch.utils.data import DataLoader
 from accelerate import Accelerator, DistributedDataParallelKwargs
