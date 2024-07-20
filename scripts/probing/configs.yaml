@@ -7,12 +7,11 @@ lr: 1e-4
 save_dir: "ckpts"
 nouns_file: "../../data/nouns/round5/nouns.txt"
 ood_nouns_file: "../../data/nouns/round5/ood_nouns.txt"
-whoseroles: "visual"
+whoseroles: "visual" # According to which modality gth role labels are assigned? "visual" or "linguistic"
 date: "debug"
 lm: t5
 lm_howto_select_encoding_positions: encode_subj_obj
 lm_kwargs:
-  token_pos: 'last'
-  #name: 'google/flan-t5-xxl'
-  name: 't5-small'
+  token_pos: 'last' # If a noun is tokenized into multiple tokens, whose encoding to use? 'last' or 'first'
+  name: 't5-small' #'google/flan-t5-xxl' # only necessary if lm is 't5'
   dtype: 'no'
