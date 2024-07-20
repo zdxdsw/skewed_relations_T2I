@@ -11,6 +11,14 @@ data/aggregated/vgr_nocaps_fb_both_complete.json
 data/aggregated/vgr_nocaps_tb_both_complete.json
 
 notebooks
+scripts/diffuser_common/dataset.py
+scripts/diffuser_common/eval.py
+scripts/diffuser_common/trainer.py
+scripts/diffuser_common/tester.py
+scripts/diffuser_common/unconditional_trainer.py
+scripts/diffuser_real/butterfly_trainer.py
+scripts/diffuser_real/flickr_warmup_trainer.py
 scripts/formalism/metrics_naive
 scripts/formalism/metrics_transpose_R2
+scripts/helper_notused.py
 controlled_probing

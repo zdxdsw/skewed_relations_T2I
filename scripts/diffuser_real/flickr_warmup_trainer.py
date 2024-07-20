@@ -1,14 +1,14 @@
 from config import ConditionalTrainingConfig
 import torch, sys, os, random, pytz, json
 from dataset import *
-sys.path.append("../diffuser_colored_sq/")
+sys.path.append("../diffuser_common/")
 from torch.utils.data import DataLoader
 from accelerate import Accelerator, DistributedDataParallelKwargs
 from tqdm.auto import tqdm
 import torch.nn.functional as F
 from diffusers.optimization import get_constant_schedule_with_warmup, get_cosine_schedule_with_warmup
 from model import T2IDiffusion
-from utils import *
+from training_utils import *
 
 from datetime import datetime
 timezone = pytz.timezone('America/New_York') 
