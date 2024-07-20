@@ -49,6 +49,17 @@ class ConditionalTrainingConfig:
     conv_in_kernel = 3
     conv_out_kernel = 3
     trainable_parameters = ["attentions", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] # ["transformer_blocks.0.norm1", "attn1", "transformer_blocks.0.norm2", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] #
+    """
+    load_from_dir: 
+        Resume training from a previous experiment. 
+        Pass in the experiment's date string. The last ckpt saved under that previous experiment will be picked.
+        Epoch index and step index will resume from the last ckpt.
+    init_from_dir:
+        Initialize the model from a previous ckpt. 
+        Pass in the path to the .pt file.
+        Epoch index and step index will start from 0.
+    Note: in both cases, optimizer and lr_scheduler will be re-initialized.
+    """
     load_from_dir = "0516_001146" 
     #init_from_ckpt = "0514_083120/ckpts/49999_100000_unet.pt" #"0304_002415/ckpts/49999_100000_unet.pt" # 1217_160404 
     vae_weights_dir = "/data/yingshac/clevr_control/from_pretrained/vae/sd2"
