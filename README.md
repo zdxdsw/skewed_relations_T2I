@@ -134,6 +134,8 @@ mkdir autoeval
 ```
 Download the finetuned ViT checkpoint from [here](https://drive.google.com/file/d/1wgzwoUmKmdETmD-donHaTrXd8ykQtVQl/view?usp=sharing) (328MB) and move it to `<largefiles_dir>/skewed_relations_T2I/autoeval`.
 
+For your reference, we provide [code for finetuning ViT](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/finetune_vit.ipynb).
+
 #### 6. Evaluation commands
 
 ```
