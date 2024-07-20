@@ -10,7 +10,7 @@ data/aggregated/whatsup_vlm_ab.json
 data/aggregated/vgr_nocaps_fb_both_complete.json
 data/aggregated/vgr_nocaps_tb_both_complete.json
 
-notebooks/
+notebooks/*
 !notebooks/finetune_vit.ipynb
 scripts/diffuser_common/dataset.py
 scripts/diffuser_common/eval.py
