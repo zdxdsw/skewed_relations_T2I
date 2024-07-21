@@ -82,6 +82,12 @@ By default, `tester.py` will run inference on both training and testing set. To 
 
 Fixed filters are created from GTH icons. Then generated images are evaluated via pixel-level pattern matching. Please refer to this [notebook](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/evaluate_generated_icons.ipynb).
 
+#### 5. Ablation experiments
+
+To disable image positional embeddings, comment the line `patch_size = 2` in [`config.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/config.py) or set `patch_size = None`. (It needs to re-run both single-obj pretraining and two-objs finetuning.)
+
+To switch language encoder from T5 to CLIP, modify [`config.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/config.py): `lm = "t5"` <--> `lm = "clip_"`
+
 <br>
 
 ## Pixel Diffusion Experiments with Natural Images
