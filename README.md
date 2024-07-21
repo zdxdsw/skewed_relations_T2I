@@ -78,9 +78,9 @@ accelerate launch tester.py --load_from_dir <handle> --load_from_epochs <load_fr
 
 By default, `tester.py` will run inference on both training and testing set. To opt out from training (testing) set, set `--num_iter_train 0` (`--num_iter_test 0`).
 
-#### 4. Evaluation commands
+#### 4. Evaluation script
 
-&#x2610; TODO
+Fixed filters are created from GTH icons. Then generated images are evaluated via pixel-level pattern matching. Please refer to this [notebook](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/evaluate_generated_icons.ipynb).
 
 <br>
 
