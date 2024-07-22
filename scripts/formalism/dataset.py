@@ -7,8 +7,6 @@ from typing import Any, Dict, Optional, Tuple, Union, List
 
 
 RELATIONS = ["{0} is on top of {1}.", "{1} is at the bottom of {0}."]
-FONT_DIR = "fonts/" #/home/yingshan/clevr_control/scripts/diffuser_icons/
-
 
 def create_data_split2(nouns):
     train_triplets, test_triplets = [], []

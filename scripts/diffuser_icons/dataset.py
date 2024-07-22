@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 from typing import Any, Dict, Optional, Tuple, Union, List
 
 RELATIONS = ["{0} is on top of {1}.", "{1} is at the bottom of {0}."]
-FONT_DIR = "fonts/" #/home/yingshan/clevr_control/scripts/diffuser_icons/
+FONT_DIR = "fonts/" 
 
 class icons_dataset(Dataset):
     def __init__(self,
@@ -33,9 +33,6 @@ class icons_dataset(Dataset):
 def draw_icon(unicode1, unicode2=None, canvas_size=32, icon_size=32, fontsize=28):
     if isinstance(canvas_size, int): H, W = canvas_size, canvas_size
     else: H, W = canvas_size
-    # if unicode2 is not None: 
-    #     W *= 2
-    #     H *= 2
 
     im = Image.new("RGB", (W, H), (255,255,255))
     draw = ImageDraw.Draw(im)
