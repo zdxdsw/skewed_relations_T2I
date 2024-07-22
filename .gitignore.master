@@ -24,5 +24,7 @@ scripts/diffuser_real/butterfly_trainer.py
 scripts/diffuser_real/flickr_warmup_trainer.py
 scripts/formalism/metrics_naive
 scripts/formalism/metrics_transpose_R2
+scripts/formalism/entropy.py
+scripts/formalism/formalism_utils.py
 scripts/helper_notused.py
 controlled_probing
