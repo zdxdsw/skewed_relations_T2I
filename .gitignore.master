@@ -11,9 +11,11 @@ data/aggregated/vgr_nocaps_fb_both_complete.json
 data/aggregated/vgr_nocaps_tb_both_complete.json
 
 notebooks/*
+!notebooks/figures
 !notebooks/finetune_vit.ipynb
 !notebooks/evaluate_generated_icons.ipynb
 !notebooks/quantifying_skew.ipynb
+!notebooks/whatsup_preprocess.ipynb
 
 scripts/diffuser_common/dataset.py
 scripts/diffuser_common/eval.py

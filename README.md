@@ -105,7 +105,7 @@ mkdir -p data/whatsup_vlms
 ```
 Move the folder `controlled_clevr` to `<largefiles_dir>/skewed_relations_T2I/data/whatsup_vlms/`.
 
-&#x2610; TODO: explain how the annotation file is pre-processed into `skewed_relations_T2I/data/aggregated/whatsup_vlm_b_lr.json` and `skewed_relations_T2I/data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json`
+WhatsUp annotation files are preprocessed --- filtering for selected relations & objects --- and saved to `skewed_relations_T2I/data/aggregated`. Refer to [`whatsup_preprocess.ipynb`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/whatsup_preprocess.ipynb) for preprocessing code.
 
 #### 2. Training configs
 
