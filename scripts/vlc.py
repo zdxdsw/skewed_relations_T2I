@@ -281,7 +281,9 @@ def get_model(**kwargs):
         vlc_version = "large",
         hidden_size = 1024
     )
-    state_dict = torch.load("/data/yingshac/clevr_control/scripts/probing/vlc_L16.ckpt", map_location="cpu")["state_dict"]
+    #path = "<largefiles_dir>/skewed_relations_T2I/scripts/probing/vlc_L16.ckpt" # [Important]: update this to the correct path
+    path = "/data/yingshac/clevr_control/scripts/probing/vlc_L16.ckpt"
+    state_dict = torch.load(path, map_location="cpu")["state_dict"]
     model.load_state_dict(state_dict, strict=False)
     return model
 

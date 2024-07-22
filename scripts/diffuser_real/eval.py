@@ -38,9 +38,6 @@ def process_gen_sample(pilimage, gth_caption, whichset):
     elif "in-front of" in r: labels, crops = [n2i[f2], n2i[f1]], [crop1, crop2]
     elif "behind" in r: labels, crops = [n2i[f1], n2i[f2]], [crop1, crop2]
     else: raise ValueError(f"Invalid relation: {r}")
-
-    for i, c in enumerate(crops):
-        c.save(f"../../notebooks/data/tmp_crop{i}.png")
     
     return [{
         "image": crop,
@@ -54,7 +51,10 @@ parser.add_argument('--split_for_eval', type=str, default="test train")
 parser.add_argument('--ckpt_handle', type=str)
 parser.add_argument('--output_folder', type=str, default="output")
 parser.add_argument('--eval_batch_size', type=int, default=16)
+
+# "<largefiles_dir>/skewed_relations_T2I/autoeval/" [Important]: update the default value to the correct path
 parser.add_argument('--vit_for_autoeval_ckpt_dir', type=str, default="/data/yingshac/clevr_control/autoeval/")
+
 parser.add_argument('--vit_for_autoeval_ckpt_name', type=str, default="vit-base-patch16-224-in21k_0311_211459.pt") #in21k_0303_182910
 parser.add_argument('--device', type=int, default=0)
 parser.add_argument('--print_errors', action='store_true')
