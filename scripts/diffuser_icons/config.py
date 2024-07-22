@@ -46,6 +46,17 @@ class ConditionalTrainingConfig:
     conv_in_kernel = 3 # might change for latent diffusion according to the number of channels in vae's output
     conv_out_kernel = 3
     #trainable_parameters = ["attentions", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] # ["transformer_blocks.0.norm1", "attn1", "transformer_blocks.0.norm2", "encoder_hid_proj"] # ["attn2", "norm3", "encoder_hid_proj"] #
+    """
+    load_from_dir: 
+        Resume training from a previous experiment. 
+        Pass in the experiment's date string. The last ckpt saved under that previous experiment will be picked.
+        Epoch index and step index will resume from the last ckpt.
+    init_from_dir:
+        Initialize the model from a previous ckpt. 
+        Pass in the path to the .pt file.
+        Epoch index and step index will start from 0.
+    Note: in both cases, optimizer and lr_scheduler will be re-initialized.
+    """
     #load_from_dir = "0312_194052" 
     init_from_ckpt = "0514_082837/ckpts/4999_30000_unet.pt" #1201_214632 1217_160404 
     vae_weights_dir = "/data/yingshac/clevr_control/from_pretrained/vae/sd2"

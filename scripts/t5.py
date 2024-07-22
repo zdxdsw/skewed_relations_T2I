@@ -213,7 +213,12 @@ def encode_subj_obj2(
     token_pos: str,
     **kwargs,
 ):  
-    ### Avg token encodings in the relation phrase, and add it to subj/obj encodings
+    """ 
+    Where encode_subj_obj2() differs from encode_subj_obj():
+        In addition to getting subj/obj insividual token encodings,
+            we avg all token encodings in the relation phrase, and add it to subj/obj encodings 
+            -- forcing the subj/obj encodings to contain sentence-level information.
+    """
      
     if isinstance(dtype, str): dtype = TORCH_DTYPES[dtype]
     t5, tokenizer = get_model_and_tokenizer(name, dtype)

@@ -4,6 +4,8 @@
 
 Modify `<largefiles_dir>` if you keep large files in a separate directory.
 
+Calculation of the proposed metrics, COMPLETENESS and BALANCE: [`quantifying_skew.ipynb`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/quantifying_skew.ipynb)
+
 <br>
 
 ## Setup
@@ -55,15 +57,17 @@ Config your training hyperparameters in `skewed_relations_T2I/scripts/diffuser_i
 
 To reproduce results in our paper, copy configs from [skewed_relations_T2I/scripts/diffuser_icons/configs/pixel_icons_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/pixel_icons_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_icons/configs/pixel_icons_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/configs/pixel_icons_twoobjs_ft_config.py)
 
-&#x2610; TODO: explain `split_method`
+#### 2. Synthetic dataset
 
-#### 2. Training commands
+Due to the simplicity of synthetic data, we do not save a copy. Data is constructed on the fly in the dataloader. Please refer to [`dataset.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/dataset.py) for how splits with different degrees of skew are created, and this [summary chart](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/metric_summary.png) for mapping `split_method` to metrics.
+
+#### 3. Training commands
 ```
 cd skewed_relations_T2I/scripts/diffusion_icons
 accelerate launch trainer.py
 ```
 
-#### 3. Testing commands
+#### 4. Testing commands
 ```
 cd skewed_relations_T2I/scripts/diffusion_icons
 accelerate launch tester.py --load_from_dir <handle> --load_from_epochs <load_from_epochs> --eval_batch_size <eval_batch_size>
@@ -78,9 +82,15 @@ accelerate launch tester.py --load_from_dir <handle> --load_from_epochs <load_fr
 
 By default, `tester.py` will run inference on both training and testing set. To opt out from training (testing) set, set `--num_iter_train 0` (`--num_iter_test 0`).
 
-#### 4. Evaluation commands
+#### 5. Evaluation script
 
-&#x2610; TODO
+Fixed filters are created from GTH icons. Then generated images are evaluated via pixel-level pattern matching. Please refer to this [notebook](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/evaluate_generated_icons.ipynb).
+
+#### 6. Ablation experiments
+
+To disable image positional embeddings, comment the line `patch_size = 2` in [`config.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/config.py) or set `patch_size = None`. (It needs to re-run both single-obj pretraining and two-objs finetuning.)
+
+To switch language encoder from T5 to CLIP, modify [`config.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_icons/config.py): `lm = "t5"` <--> `lm = "clip_"`
 
 <br>
 
@@ -95,7 +105,7 @@ mkdir -p data/whatsup_vlms
 ```
 Move the folder `controlled_clevr` to `<largefiles_dir>/skewed_relations_T2I/data/whatsup_vlms/`.
 
-&#x2610; TODO: explain how the annotation file is pre-processed into `skewed_relations_T2I/data/aggregated/whatsup_vlm_b_lr.json` and `skewed_relations_T2I/data/aggregated/whatsup_vlm_b_lr_autofill_remove_sun_rem_pho.json`
+WhatsUp annotation files are preprocessed --- filtering for selected relations & objects --- and saved to `skewed_relations_T2I/data/aggregated`. Refer to [`whatsup_preprocess.ipynb`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/whatsup_preprocess.ipynb) for preprocessing code.
 
 #### 2. Training configs
 
@@ -103,15 +113,17 @@ Config your training hyperparameters in `skewed_relations_T2I/scripts/diffuser_r
 
 To reproduce results in our paper, copy configs from [skewed_relations_T2I/scripts/diffuser_real/configs/pixel_natural_singleobj_pt_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/pixel_natural_singleobj_pt_config.py) and [skewed_relations_T2I/scripts/diffuser_real/configs/pixel_natural_twoobjs_ft_config.py](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/configs/pixel_natural_twoobjs_ft_config.py)
 
-&#x2610; TODO: explain `subsample_method`
+#### 3. Drawing subsamples
 
-#### 3. Training commands
+Instances are converted to the tuple representation $(f_1, r_1, f_2, r_2)$ and subsampled in the tuple representation space. Please refer to [`dataset.py`](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/dataset.py) for how subsamples with different degrees of skew are drawn, and this [summary chart](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/scripts/diffuser_real/metric_summary.png) for mapping `subsample_method` to metrics.
+
+#### 4. Training commands
 ```
 cd skewed_relations_T2I/scripts/diffusion_real
 accelerate launch trainer.py
 ```
 
-#### 4. Testing commands
+#### 5. Testing commands
 ```
 cd skewed_relations_T2I/scripts/diffusion_real
 accelerate launch tester.py --load_from_dir <handle> --load_from_epochs <load_from_epochs> --eval_batch_size <eval_batch_size>
@@ -126,7 +138,7 @@ accelerate launch tester.py --load_from_dir <handle> --load_from_epochs <load_fr
 
 By default, `tester.py` will run inference on both training and testing set. To opt out from training (testing) set, set `--num_iter_train 0` (`--num_iter_test 0`).
 
-#### 5. AutoEval with ViT
+#### 6. AutoEval with ViT
 
 ```
 cd <largefiles_dir>/skewed_relations_T2I &&
@@ -134,7 +146,9 @@ mkdir autoeval
 ```
 Download the finetuned ViT checkpoint from [here](https://drive.google.com/file/d/1wgzwoUmKmdETmD-donHaTrXd8ykQtVQl/view?usp=sharing) (328MB) and move it to `<largefiles_dir>/skewed_relations_T2I/autoeval`.
 
-#### 6. Evaluation commands
+For your reference, we provide [code for finetuning ViT](https://github.com/zdxdsw/skewed_relations_T2I/blob/master/notebooks/finetune_vit.ipynb).
+
+#### 7. Evaluation commands
 
 ```
 cd skewed_relations_T2I/scripts/diffusion_real
